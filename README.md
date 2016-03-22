@@ -1,8 +1,3 @@
-# WilloWispGames.github.io
-Web 
-
-
-
 ![Build Status](https://travis-ci.org/PanosSakkos/personal-jekyll-theme.svg?branch=master)
 [![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PanosSakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -120,4 +115,3 @@ One of the reasons { Personal } is real is the following OSS projects:
 Proposals, pull requests and issues are more than welcome, let's make the web a bit more beautiful and secure :wink:
 
 In case you want to say thank you by donating Bitcoins to all the contributors, [this](https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi) is our address.
-

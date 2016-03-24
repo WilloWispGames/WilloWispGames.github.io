@@ -59,7 +59,8 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Welcome to the new site(currently under construction)"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
+me-img: "/img/treePeek.png"
 
 ##############################
 # Color the browser elements #

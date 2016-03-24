@@ -3,8 +3,8 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://github.com/WilloWispGames/WilloWispGames.github.io.git"
-#url: "WilloWispGames.github.io.git"
+#url: "https://github.com/WilloWispGames/WilloWispGames.github.io.git"
+url: "WilloWispGames.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -13,7 +13,7 @@ url: "https://github.com/WilloWispGames/WilloWispGames.github.io.git"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: "/WilloWispGames"
+#baseurl: "/WilloWispGames"
 
 # Google tracking id to track your visitors
 

@@ -76,11 +76,13 @@
     width: 100px;
     height: 100px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    /*border: 7px solid #f1f1f1;
+    border-radius: 100%;*/
     text-align: center;
-    color: #fff;
-    background-color: #f1f1f1;
+    /*color: #fff;
+    background-color: #f1f1f1;*/
+    color: transparent;
+    background-color: transparent;    
 }
 
 .timeline>li .timeline-image h4 {

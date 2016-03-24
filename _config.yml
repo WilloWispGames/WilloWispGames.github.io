@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Welcome to the new site(currently under construction)"
 
 #me-img: "/img/jetpacktocat.png"
-me-img: "/img/web-app/rock-75p.png"
+me-img: "/img/web-app/icon-75.png"
 
 ##############################
 # Color the browser elements #
@@ -82,7 +82,7 @@ web-app-mode: True
 #icon-96p: "/img/web-app/icon-96p.png"
 #icon-144p: "/img/web-app/icon-144p.png"
 #icon-192p: "/img/web-app/icon-192p.png"
-icon-75p: "/img/web-app/rock-75p.png"
+icon-75p: "/img/web-app/icon-75p.png"
 
 ########
 # Blog #

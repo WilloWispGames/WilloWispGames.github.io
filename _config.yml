@@ -60,7 +60,7 @@ lines: # You can add HTML Tags in the Text
   - text: "Welcome to the new site(currently under construction)"
 
 #me-img: "/img/jetpacktocat.png"
-me-img: "/img/magicRock_root.png"
+me-img: "/img/web-app/rock-75p.png"
 
 ##############################
 # Color the browser elements #

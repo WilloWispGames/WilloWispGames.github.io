@@ -59,7 +59,8 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Welcome to the new site(currently under construction)"
 
-me-img: "/img/jetpacktocat.png"
+#me-img: "/img/jetpacktocat.png"
+me-img: "/img/wowLogo.png"
 
 ##############################
 # Color the browser elements #
@@ -81,6 +82,7 @@ icon-72p: "/img/web-app/icon-72p.png"
 icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
+#icon-192p: "/img/web-app/wowLogo-192p.png"
 
 ########
 # Blog #

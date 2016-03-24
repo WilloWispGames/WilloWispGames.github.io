@@ -59,8 +59,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Welcome to the new site(currently under construction)"
 
-#me-img: "/img/jetpacktocat.png"
-me-img: "/img/web-app/icon-75.png"
+me-img: "/img/jetpacktocat.png"
 
 ##############################
 # Color the browser elements #
@@ -76,13 +75,12 @@ web-app-mode: True
 
 # Icons for Web App mode
 
-#icon-36p: "/img/web-app/icon-36p.png"
-#icon-48p: "/img/web-app/icon-48p.png"
-#icon-72p: "/img/web-app/icon-72p.png"
-#icon-96p: "/img/web-app/icon-96p.png"
-#icon-144p: "/img/web-app/icon-144p.png"
-#icon-192p: "/img/web-app/icon-192p.png"
-icon-75p: "/img/web-app/icon-75.png"
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
 
 ########
 # Blog #

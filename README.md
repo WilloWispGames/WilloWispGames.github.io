@@ -1,7 +1,7 @@
 
 # Will o' Wisp Games Blog and Website
 
-Made with { Personal } Jekyll theme.
+Made using { Personal } Jekyll theme.
 
 * Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
   * Modern and minimal design

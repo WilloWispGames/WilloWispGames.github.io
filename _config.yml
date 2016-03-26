@@ -13,7 +13,7 @@ url: "WilloWispGames/WilloWispGames.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-#baseurl: "/WilloWispGames"
+baseurl: "WilloWispGames.github.io"
 
 # Google tracking id to track your visitors
 

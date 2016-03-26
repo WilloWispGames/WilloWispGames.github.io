@@ -59,7 +59,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Welcome to the new site(currently under construction)"
+  - text: "Welcome to the new site( under construction )"
 
 me-img: "/img/wowLogo.png"
 

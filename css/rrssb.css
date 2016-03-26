@@ -8,8 +8,7 @@
   width:100%
   
 }
-.rrssb-buttons:after{clear:both}
-.rrssb-buttons:after,
+.rrssb-buttons:after{clear:both}.rrssb-buttons:after,
 .rrssb-buttons:before{content:' ';display:table}
 .rrssb-buttons li{
   box-sizing:border-box;

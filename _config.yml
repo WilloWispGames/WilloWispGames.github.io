@@ -103,7 +103,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-#disqus-shortname: "willowispgames"
+disqus-shortname: "willowispgames"
 
 syntax-highlight: True
 

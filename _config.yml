@@ -114,10 +114,10 @@ syntax-highlight: True
 events:
   - image: "/img/wowLogo.png"
     date: "November 2015 - Today"
-    description: "Actively developing"
+    description: "Project specific engine modifications"
   - image: "/img/wowLogo.png"
-    date: "November 2013 - 2015"
-    description: "Research and planning"
+    date: "November 2015"
+    description: "Began development"
 
 # First image of the Timeline
 

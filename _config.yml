@@ -94,9 +94,9 @@ paginate: 5
 
 email-share: False
 fb-share: False
-twitter-share: True
+twitter-share: False
 linkedin-share: False
-reddit-share: True
+reddit-share: False
 google-plus-share: False
 tumblr-share: False
 pinterest-share: False

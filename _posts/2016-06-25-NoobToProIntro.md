@@ -8,32 +8,31 @@ tags: [ 'devblog' ]
 
 Torque3D is a vision. It is an engine unlike any other in that is is driven by its 
 community. With no community there is no Torque. Where many may view this as a weakness,
-it is indeed Torque's greatest strength. When you have tech that's been developed 
-over years of time by a dedicated community, chances are you're going to have a 
-strong platform from which to build.
+it is indeed Torque's greatest strength. When you have tech that's been developed over 
+years of time by a dedicated community, chances are you're going to have a strong platform 
+from which to build.
 
 The best part? It's all open source, so regardless of what may or may not be valid 
 for a project all of the code can be updated, edited, replaced, or removed altogether 
 if need be. The engine is also on the cusp of supporting more modern rendering 
-capabilities and an entity/component system. With a polish over file 
-structure, extensions, and modules to boot, Torque continues to improve at a steady 
-pace. 
+capabilities and an entity/component system. With a polish over file structure, 
+extensions, and modules to boot, Torque continues to improve at a steady pace. 
 
 It's no secret that Torque's community has been active over the years. Given time and 
 dedication, one can sniff out sample scripts or potential code to tackle most of the 
 common problems that arise in new projects. More recently, a modern site dedicated to
-the Torque3D engine and community was launched at torque3d.org. The site is actively updated 
-and maintained, where developers can find all the latest Torque development news or 
-join discussions in the community forums.
+the Torque3D engine and community was launched at [torque3d.org](http://torque.org). 
+The site is actively updated and maintained, where developers can find all the latest 
+Torque development news or join discussions in the community forums.
 
-Implementing common functionality that most users expect from modern games can 
-take a bit of work, although any gameplay worth developing should take a bit of 
-work. The difference is there is a well thought out, tried and true solution already 
-framed up with Torque, ready to be built upon. It's a great boon to the development 
-process not to have to code up a base GUI for graphics options or controls, for example. 
-Not to overlook the extremely nice built in networking support embedded into Torque's 
-source. It's a marvelous bit of tech to be quite honest, passing bits efficiently if 
-used correctly and offering a secure server/client architecture. 
+Implementing common functionality that most users expect from modern games can take a 
+bit of work, although any gameplay worth developing should take a bit of work. The 
+difference is there is a well thought out, tried and true solution already framed up 
+with Torque, ready to be built upon. It's a great boon to the development process not 
+to have to code up a base GUI for graphics options or controls, for example. Not to 
+overlook the extremely nice built in networking support embedded into Torque's source. 
+It's a marvelous bit of tech to be quite honest, passing bits efficiently if used 
+correctly and offering a secure server/client architecture. 
 
 So why isn't Torque considered the best of the best by the masses? Plain and simple, 
 Torque is not user friendly right out the gate. A new user with no experience or 
@@ -90,5 +89,3 @@ There comes a time when you grasp what Torque is really offering you as a develo
 and it's like reaching the summit after a long hike. You can look back over everything 
 you have just endured and experienced and truly be proud. Not only of what you have 
 achieved, but of yourself for what you have become. 
-
-[emoji code](http://www.emoji-cheat-sheet.com/) :wink: 

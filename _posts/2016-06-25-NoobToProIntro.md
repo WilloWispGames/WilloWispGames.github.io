@@ -21,7 +21,7 @@ extensions, and modules to boot, Torque continues to improve at a steady pace.
 It's no secret that Torque's community has been active over the years. Given time and 
 dedication, one can sniff out sample scripts or potential code to tackle most of the 
 common problems that arise in new projects. More recently, a modern site dedicated to
-the Torque3D engine and community was launched at [torque3d.org](http://torque.org). 
+the Torque3D engine and community was launched at [torque3d.org](http://torque3d.org). 
 The site is actively updated and maintained, where developers can find all the latest 
 Torque development news or join discussions in the community forums.
 

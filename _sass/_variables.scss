@@ -3,17 +3,17 @@
 $primary: #bdbdbd; //#00cdff;
 $dark: #000;
 $light: #fff;
-$greyPane: #f5f5f5; //#eee;
-$darkText: #212121;
+$greyPane: #f5f5f5;
+$darkText: #000;
 $lightGrey: #e0e0e0;
 
 $navbar-text-shadow: true;
 $header-text-shadow: true;
-$header-background-color: $greyPane; //$dark;
+$header-background-color: $greyPane; 
 $intro-text-color: $light;
 $navbar-color: $light;
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
-$social-buttons-color: #00cdff; //$primary;
+$social-buttons-color: #00cdff; 

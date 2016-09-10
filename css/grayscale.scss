@@ -107,7 +107,7 @@ a {
     a {
         color: $navbar-color;
         @if $header-text-shadow{
-            text-shadow: 0 0 2px rgba(0, 0, 0, 0.87);
+            text-shadow: 0 0 2px $dark; //rgba(0, 0, 0, 0.87);
         }
     }
     .nav {
@@ -120,18 +120,18 @@ a {
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: rgba($lightGrey, 0.7); 
+                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                    background-color: rgba($lightGrey, 0.7); 
+                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: rgba($lightGrey, 0.7); 
+                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
                     &:hover {
                         color: $navbar-color;
                     }
@@ -150,7 +150,7 @@ a {
         &.top-nav-collapse {
             padding: 0;
             background: $navbar-lg-collapse-background-color;
-            border-bottom: 1px solid rgba($lightGrey, 0.7); 
+            border-bottom: 1px solid $lightGrey; //rgba($lightGrey, 0.7); 
         }
     }
 }
@@ -387,6 +387,7 @@ body {
 /* END Added in { Personal } for Typed Cursor in Header */
 
 /* Animation for hand-swipe */
+/*
 @-webkit-keyframes swipe {
     from {
         left: 5%;
@@ -404,9 +405,11 @@ body {
          left: -5%;
      }
  }
+ */
  /* END Animation for hand-swipe */
 
  /* Style for swipe instruction section */
+ /*
  #swipe-instruction {
      display: none;
      position: absolute;
@@ -439,7 +442,7 @@ body {
   background-color: $dark;
   color: $primary;
 }
-
+*/
  /* END Style for swipe instruction section */
 
 .fourofour {

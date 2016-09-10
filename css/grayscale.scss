@@ -74,7 +74,7 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        color: lighten($primary,20%);
+        color: darken($primary,20%);
     }
 }
 

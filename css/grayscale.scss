@@ -80,7 +80,7 @@ a {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba($lightGrey, 0.7); 
+    border-bottom: 1px solid $lightGrey; //rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;

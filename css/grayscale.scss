@@ -101,13 +101,13 @@ a {
     .navbar-brand {
         font-weight: 700;
         &:focus {
-            outline: 1px solid $dark; //none;
+            outline: none;
         }
     }
     a {
         color: $navbar-color;
         @if $header-text-shadow{
-            text-shadow: 0 0 2px $dark; //rgba(0, 0, 0, 0.87);
+            text-shadow: 0 0 2px rgba(0, 0, 0, 1);
         }
     }
     .nav {

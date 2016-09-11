@@ -80,7 +80,7 @@ a {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid $lightGrey; //rgba($lightGrey, 0.7); 
+    border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $navbar-sm-background-color;
@@ -120,18 +120,18 @@ a {
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
+                    background-color: rgba($lightGrey, 0.7); 
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
+                    background-color: rgba($lightGrey, 0.7); 
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: $lightGrey; //rgba($lightGrey, 0.7); 
+                    background-color: rgba($lightGrey, 0.7); 
                     &:hover {
                         color: $navbar-color;
                     }
@@ -150,7 +150,7 @@ a {
         &.top-nav-collapse {
             padding: 0;
             background: $navbar-lg-collapse-background-color;
-            border-bottom: 1px solid $lightGrey; //rgba($lightGrey, 0.7); 
+            border-bottom: 1px solid rgba($lightGrey, 0.7); 
         }
     }
 }

@@ -51,7 +51,7 @@ background-img: "../img/day-bg.png"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: False # True
 loop-count: 1 #False # Set False for infinite loop, or set any number for finite loop.
@@ -130,7 +130,7 @@ timeline-img: "/img/wowLogo.png"
 # Contact #
 ###########
 
-email: "jesse@willowispgames.com"
+email: "webmaster@willowispgames.com"
 
 ##################
 # Social Buttons #

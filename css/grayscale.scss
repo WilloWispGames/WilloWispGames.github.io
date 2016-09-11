@@ -101,7 +101,7 @@ a {
     .navbar-brand {
         font-weight: 700;
         &:focus {
-            outline: none;
+            outline: 1px solid $dark; //none;
         }
     }
     a {

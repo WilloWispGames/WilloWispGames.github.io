@@ -243,8 +243,9 @@ a {
 
 .content-section {
     margin-top: 100px;
+    margin-bottom: 20px;
     padding-top: 100px;
-    width: 90%;
+    width: 85%;
     background-color: $white;
     @media(min-width:767px) {
         margin-top: 125px;

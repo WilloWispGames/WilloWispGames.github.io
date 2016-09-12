@@ -158,19 +158,6 @@ a {
             padding: 0;
             background: $navbar-lg-collapse-background-color;
             border-bottom: 1px solid rgba($lightGrey, 0.7);
-            
-            .navbar-brand-collapse {
-                color: $light;
-                -webkit-transition: color .3s ease-in-out;
-                -moz-transition: color .3s ease-in-out;
-                transition: color .3s ease-in-out;        
-                &:hover,
-                &:focus,
-                &:active {
-                    outline: none;
-                    color: rgba($primary, 0.7);
-                }
-            }            
         }
     }
 }

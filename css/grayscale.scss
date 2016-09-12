@@ -15,7 +15,7 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary; 
-    background-color: $light; 
+    background-color: $backdrop; 
     background-position: absolute;
 }
 
@@ -104,7 +104,7 @@ a {
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $light; //$navbar-sm-background-color;
+    background-color: $white; //$navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -365,13 +365,13 @@ footer {
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba($light, 0.2);
+    background: rgba($white, 0.2);
 }
 
 ::selection {
     text-shadow: none;
     background: #fcfcfc;
-    background: rgba($light, 0.2);
+    background: rgba($white, 0.2);
 }
 
 img::selection {
@@ -383,9 +383,9 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: rgba($light, 0.2);
+    -webkit-tap-highlight-color: rgba($white, 0.2);
 }
 
 .fourofour {
-  border: 1px solid $dark !important;
+  border: 1px solid $black !important;
 }

@@ -11,7 +11,7 @@ $navbar-text-shadow: false; //true;
 $header-text-shadow: true;
 $header-background-color: $greyPane; 
 $intro-text-color: $light;
-$navbar-color: #9e9e9e; //$light; // navbar text
+$navbar-color: $light; // navbar text
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;

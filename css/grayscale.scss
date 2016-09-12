@@ -125,7 +125,7 @@ a {
                 &:active {
                     background-color: transparent;
                     outline: none;
-                    color: rgba($secondary, 0.7)
+                    color: $primary; //rgba($secondary, 0.7)
                     //background-color: rgba($lightGrey, 0.7); 
                 }
             }
@@ -137,7 +137,7 @@ a {
                     //background-color: rgba($lightGrey, 0.7); 
                     &:hover {
                         background-color: transparent;
-                        color: rgba($secondary, 0.7);
+                        color: $primary; //rgba($secondary, 0.7);
                     }
                 }
             }

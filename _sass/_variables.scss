@@ -7,11 +7,11 @@ $greyPane: #f5f5f5;
 $darkText: rgba(#000000, 0.87);
 $lightGrey: #bdbdbd;
 
-$navbar-text-shadow: false; //true;
-$header-text-shadow: true;
+$navbar-text-shadow: false; 
+$header-text-shadow: false; 
 $header-background-color: $greyPane; 
 $intro-text-color: $light;
-$navbar-color: $light; // navbar text
+$navbar-color: $darkText; // navbar text
 $navbar-lg-collapse-background-color: $header-background-color;
 $navbar-lg-background: transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;

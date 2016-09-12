@@ -40,7 +40,7 @@ h6 {
 h4 {
     a.category {
         color: inherit;
-        background-color: transparent;
+        //background-color: transparent;
     }
 
     a.tag {
@@ -116,14 +116,14 @@ a {
         text-align: center;
         li {
             a {
-                background-color: transparent;
+                //background-color: transparent;
                 -webkit-transition: color .2s ease-in-out;
                 -moz-transition: color .2s ease-in-out;
                 transition: color .2s ease-in-out;                
                 &:hover,
                 &:focus,
                 &:active {
-                    background-color: transparent;
+                    //background-color: transparent;
                     outline: none;
                     color: $primary; //rgba($secondary, 0.7)
                     //background-color: rgba($lightGrey, 0.7); 
@@ -133,10 +133,10 @@ a {
                 background-color: transparent;
                 outline: none;
                 a {
-                    background-color: transparent;
+                    //background-color: transparent;
                     //background-color: rgba($lightGrey, 0.7); 
                     &:hover {
-                        background-color: transparent;
+                        //background-color: transparent;
                         color: $primary; //rgba($secondary, 0.7);
                     }
                 }

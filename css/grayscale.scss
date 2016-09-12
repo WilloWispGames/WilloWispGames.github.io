@@ -40,6 +40,7 @@ h6 {
 h4 {
     a.category {
         color: inherit;
+        background-color: transparent;
     }
 
     a.tag {
@@ -115,30 +116,27 @@ a {
         text-align: center;
         li {
             a {
-                //-webkit-transition: background .3s ease-in-out;
-                //-moz-transition: background .3s ease-in-out;
-                //transition: background .3s ease-in-out;
-                -webkit-transition: color .3s ease-in-out;
-                -moz-transition: color .3s ease-in-out;
-                transition: color .3s ease-in-out;                
-                &:hover {
-                    /* color: rgba($light, 0.8); */
-                    outline: none;
-                    color: rgba($secondary, 0.7)
-                    //background-color: rgba($lightGrey, 0.7); 
-                }
+                background-color: transparent;
+                -webkit-transition: color .2s ease-in-out;
+                -moz-transition: color .2s ease-in-out;
+                transition: color .2s ease-in-out;                
+                &:hover,
                 &:focus,
                 &:active {
+                    background-color: transparent;
                     outline: none;
                     color: rgba($secondary, 0.7)
                     //background-color: rgba($lightGrey, 0.7); 
                 }
             }
             &.active {
+                background-color: transparent;
                 outline: none;
                 a {
+                    background-color: transparent;
                     //background-color: rgba($lightGrey, 0.7); 
                     &:hover {
+                        background-color: transparent;
                         color: rgba($secondary, 0.7);
                     }
                 }

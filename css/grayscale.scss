@@ -40,7 +40,7 @@ h6 {
 h4 {
     a.category {
         color: inherit;
-        //background-color: transparent;
+        background-color: transparent;
     }
 
     a.tag {
@@ -84,7 +84,7 @@ a {
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $navbar-sm-background-color;
+    background-color: $light; //$navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -123,7 +123,7 @@ a {
                 &:hover,
                 &:focus,
                 &:active {
-                    //background-color: transparent;
+                    background-color: transparent;
                     outline: none;
                     color: $primary; //rgba($secondary, 0.7)
                     //background-color: rgba($lightGrey, 0.7); 
@@ -133,10 +133,10 @@ a {
                 background-color: transparent;
                 outline: none;
                 a {
-                    //background-color: transparent;
+                    background-color: transparent;
                     //background-color: rgba($lightGrey, 0.7); 
                     &:hover {
-                        //background-color: transparent;
+                        background-color: transparent;
                         color: $primary; //rgba($secondary, 0.7);
                     }
                 }

@@ -106,8 +106,8 @@ a {
         }
     }
     a {
-        /*color: $navbar-color;
-        @if $header-text-shadow{
+        color: $navbar-color;
+        /*@if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 1);
         }*/
     }
@@ -115,26 +115,31 @@ a {
         text-align: center;
         li {
             a {
-                -webkit-transition: background .3s ease-in-out;
-                -moz-transition: background .3s ease-in-out;
-                transition: background .3s ease-in-out;
+                //-webkit-transition: background .3s ease-in-out;
+                //-moz-transition: background .3s ease-in-out;
+                //transition: background .3s ease-in-out;
+                -webkit-transition: color .3s ease-in-out;
+                -moz-transition: color .3s ease-in-out;
+                transition: color .3s ease-in-out;                
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: transparent; //rgba($lightGrey, 0.7); 
+                    color: rgba($navbar-color, 0.7)
+                    //background-color: rgba($lightGrey, 0.7); 
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                    background-color: transparent; //rgba($lightGrey, 0.7); 
+                    color: rgba($navbar-color, 0.7)
+                    //background-color: rgba($lightGrey, 0.7); 
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    background-color: transparent; //rgba($lightGrey, 0.7); 
+                    //background-color: rgba($lightGrey, 0.7); 
                     &:hover {
-                        color: $navbar-color;
+                        color: rgba($navbar-color, 0.7);
                     }
                 }
             }

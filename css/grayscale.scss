@@ -79,6 +79,7 @@ a {
 }
 
 .navbar-custom {
+    text-align: center;
     margin-bottom: 0;
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
@@ -90,7 +91,6 @@ a {
     overflow-y: auto;
 
     .navbar-toggle {
-        text-align: center;
         padding: 4px 6px;
         font-size: 16px;
         color: $navbar-color;

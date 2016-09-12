@@ -106,10 +106,10 @@ a {
         }
     }
     a {
-        color: $navbar-color;
+        /*color: $navbar-color;
         @if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 1);
-        }
+        }*/
     }
     .nav {
         text-align: center;
@@ -121,18 +121,18 @@ a {
                 &:hover {
                     /* color: rgba($light, 0.8); */
                     outline: none;
-                    //background-color: rgba($lightGrey, 0.7); 
+                    background-color: transparent; //rgba($lightGrey, 0.7); 
                 }
                 &:focus,
                 &:active {
                     outline: none;
-                    //background-color: rgba($lightGrey, 0.7); 
+                    background-color: transparent; //rgba($lightGrey, 0.7); 
                 }
             }
             &.active {
                 outline: none;
                 a {
-                    //background-color: rgba($lightGrey, 0.7); 
+                    background-color: transparent; //rgba($lightGrey, 0.7); 
                     &:hover {
                         color: $navbar-color;
                     }

@@ -79,7 +79,7 @@ a {
 }
 
 .navbar-custom {
-    text-align: center;
+    vertical-align: middle;
     margin-bottom: 0;
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
@@ -112,7 +112,6 @@ a {
         }
     }
     .nav {
-        vertical-align: middle;
         text-align: center;
         li {
             a {

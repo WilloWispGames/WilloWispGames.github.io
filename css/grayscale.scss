@@ -109,7 +109,7 @@ a {
         &:focus,
         &:active {
             outline: none;
-            color: $secondary;
+            color: rgba($primary, 0.7);
         }
     }
     a {

@@ -14,7 +14,7 @@ $header-text-shadow: false;
 $header-background-color: $greyPane; 
 $intro-text-color: $white; // deprecated dynamic typed text 
 $navbar-lg-collapse-background-color: $header-background-color;
-$navbar-lg-background: transparent;
+$navbar-lg-background: $greyPane; //transparent;
 $navbar-sm-background-color: $navbar-lg-collapse-background-color;
 
 $social-buttons-color: lighten($link-color,20%); 

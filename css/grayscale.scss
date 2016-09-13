@@ -142,7 +142,7 @@ a {
                 &:hover,
                 &:focus,
                 &:active {
-                    background-color: $greyPane; //transparent;
+                    background-color: transparent;
                     outline: none;
                     color: $primary;
                 }

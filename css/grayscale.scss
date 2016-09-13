@@ -134,6 +134,7 @@ a {
     }
     .nav {
         text-align: center;
+        border-bottom: 1px solid rgba($lightGrey, 0.7);
         li {
             a {
                 -webkit-transition: color .3s ease-in-out;

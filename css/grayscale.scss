@@ -165,14 +165,14 @@ a {
         letter-spacing: 1px;
         background: $greyPane; //$navbar-lg-background;
         border-bottom: 1px solid rgba($lightGrey, 0.7); //none;
-        /*-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
             background: $greyPane; //$navbar-lg-collapse-background-color;
             border-bottom: 1px solid rgba($lightGrey, 0.7);
-        }*/
+        }
     }
 }
 

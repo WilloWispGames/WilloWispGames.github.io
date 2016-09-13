@@ -41,7 +41,7 @@ h6 {
 h4 {
     a.category {
         color: inherit;
-        background-color: transparent;
+        background-color: $greyPane; //transparent;
     }
 
     a.tag {
@@ -142,18 +142,18 @@ a {
                 &:hover,
                 &:focus,
                 &:active {
-                    background-color: transparent;
+                    background-color: $greyPane; //transparent;
                     outline: none;
                     color: $primary;
                 }
             }
             &.active {
-                background-color: transparent;
+                background-color: $greyPane; //transparent;
                 outline: none;
                 a {
-                    background-color: transparent;
+                    background-color: $greyPane; //transparent;
                     &:hover {
-                        background-color: transparent;
+                        background-color: $greyPane; //transparent;
                         color: $primary;
                     }
                 }

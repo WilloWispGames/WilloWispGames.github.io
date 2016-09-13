@@ -98,7 +98,7 @@ a {
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $white; //$navbar-sm-background-color;
+    background-color: $greyPane; 
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -164,13 +164,13 @@ a {
         padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
-        background: $navbar-lg-background;
+        background: $greyPane; //$navbar-lg-background;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
         &.top-nav-collapse {
             padding: 0;
-            background: $navbar-lg-collapse-background-color;
+            background: $greyPane; //$navbar-lg-collapse-background-color;
             border-bottom: 1px solid rgba($lightGrey, 0.7);
         }
     }
@@ -186,7 +186,7 @@ a {
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
-    background-color: $header-background-color;
+    background-color: $backdrop; //$header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

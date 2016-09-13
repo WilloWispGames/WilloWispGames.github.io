@@ -139,22 +139,27 @@ a {
             a {
                 -webkit-transition: color .3s ease-in-out;
                 -moz-transition: color .3s ease-in-out;
-                transition: color .3s ease-in-out;                
+                transition: color .3s ease-in-out;
+                border-bottom: none;
                 &:hover,
                 &:focus,
                 &:active {
                     background-color: transparent;
+                    border-bottom: none;
                     outline: none;
                     color: $primary;
                 }
             }
             &.active {
                 background-color: transparent;
+                border-bottom: none;
                 outline: none;
                 a {
                     background-color: transparent;
+                    border-bottom: none;
                     &:hover {
                         background-color: transparent;
+                        border-bottom: none;
                         color: $primary;
                     }
                 }

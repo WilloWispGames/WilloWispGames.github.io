@@ -10,7 +10,7 @@
       {% if site.email %}
         {% if site.email contains '@' %}
           {% assign newemail = site.email | split: '@' %}
-            <p>
+            <div class="p2">
             <script>
               function join_at_email(user, domain){
               return (user && domain)?(user + "@" + domain):"";
@@ -22,7 +22,7 @@
               + '</a>'
               );
               </script>
-            </p>
+            </div>
         {% else %}
           <div class="p2"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
         {% endif %}

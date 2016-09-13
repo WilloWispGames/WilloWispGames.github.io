@@ -161,10 +161,10 @@ a {
         }
     }
     @media(min-width:768px) {
-        padding: 0; //20px 0;
+        padding: 20px 0;
         letter-spacing: 1px;
         background: $greyPane; //$navbar-lg-background;
-        border-bottom: 1px solid rgba($lightGrey, 0.7); //none;
+        //border-bottom: 1px solid rgba($lightGrey, 0.7); //none;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;

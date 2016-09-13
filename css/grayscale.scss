@@ -134,32 +134,26 @@ a {
     }
     .nav {
         text-align: center;
-        border-bottom: 1px solid rgba($lightGrey, 0.7);
         li {
             a {
                 -webkit-transition: color .3s ease-in-out;
                 -moz-transition: color .3s ease-in-out;
                 transition: color .3s ease-in-out;
-                border-bottom: none;
                 &:hover,
                 &:focus,
                 &:active {
                     background-color: transparent;
-                    border-bottom: none;
                     outline: none;
                     color: $primary;
                 }
             }
             &.active {
                 background-color: transparent;
-                border-bottom: none;
                 outline: none;
                 a {
                     background-color: transparent;
-                    border-bottom: none;
                     &:hover {
                         background-color: transparent;
-                        border-bottom: none;
                         color: $primary;
                     }
                 }
@@ -170,7 +164,7 @@ a {
         padding: 20px 0;
         letter-spacing: 1px;
         background: $greyPane; //$navbar-lg-background;
-        border-bottom: 1px solid rgba($lightGrey, 0.7);
+        border-bottom: none;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;

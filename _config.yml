@@ -33,8 +33,8 @@ force-https: False
 lang: "en"
 author: "Jesse Allen"
 title: "Will o' Wisp Games"
-description: "Blog and website of Will o' Wisp Games, "
-keywords: "willowisp, will, wisp, games, pcgames, indie, jesse, allen"
+description: "Blog and Website of Will o' Wisp Games. Blogging about game development experiences and tech."
+keywords: "willowisp, will, wisp, games, pcgames, rpg, fantasy, indie, dev, jesse, allen, devblog, tech, torque3d"
 favicon: "/img/favicon.ico"
 
 ################

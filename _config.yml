@@ -161,7 +161,7 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  Timeline: 'timeline'
+  Projects: 'projects'
   Blog: 'latest-post'
   About: 'about'
   Contact: 'contact'

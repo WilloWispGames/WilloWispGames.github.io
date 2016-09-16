@@ -191,8 +191,9 @@ a {
 }
 
 .intro {
-    position: fixed;
+    //position: fixed;
     display: table;
+    vertical-align: top;
     width: 100%;
     height: auto;
     padding: 0;

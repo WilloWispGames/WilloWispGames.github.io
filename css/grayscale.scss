@@ -193,10 +193,9 @@ a {
 .intro {
     position: fixed;
     display: table;
-    vertical-align: top;
     width: 100%;
     height: auto;
-    padding: 0;
+    padding-top: 0px;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -222,8 +221,8 @@ a {
     }
     @media(min-width:768px) {
         height: 100%;
-        margin: 0 0 0 0;
-        padding: 0;
+        padding-top: 0px;
+        //padding: 0;
         z-index: -1;
         .intro-body {
             .brand-heading {

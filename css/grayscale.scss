@@ -191,20 +191,22 @@ a {
 }
 
 .intro {
-    position: fixed;
+    //position: fixed;
     display: table;
     width: 100%;
     height: auto;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat top center;
+    background: url({{ site.background-img }});
     {% endif %}
     background-color: $backdrop; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     .intro-body {
         display: table-cell;
         vertical-align: middle;

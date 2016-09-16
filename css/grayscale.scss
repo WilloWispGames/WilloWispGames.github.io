@@ -139,12 +139,12 @@ a {
             color: $secondary;
         }
     }
-    a {
+    /*a {
         color: $secondary;
-        /*@if $header-text-shadow{
+        @if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 1);
-        }*/
-    }
+        }
+    }*/
     .nav {
         text-align: center;
         li {
@@ -163,10 +163,8 @@ a {
             &.active {
                 background-color: transparent;
                 outline: none;
-                color: $dark;
                 a {
                     background-color: transparent;
-                    color: $dark;
                     &:hover {
                         background-color: transparent;
                         color: $dark;

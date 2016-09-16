@@ -12,17 +12,37 @@
 
 body {
     width: 100%;
-    max-height: 100%;
-    margin: auto;
-    //height: 100%;
+    height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary; 
+    background-color: $backdrop; 
+}
+
+/* Declare the default 'driftbox' class. */
+.intro {
+	height: 400px;
+	width: 65%;
+	margin: 5px 1% 5px 1%;
+    {% if site.background-img %}
+    background: url({{ site.background-img }}) no-repeat bottom center;
+    {% endif %}
     //background-color: $backdrop; 
-    background-image: url({{ site.background-img }}) no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	background-size: cover;
+	//background-repeat: no-repeat;
+	//background-position: center;
+}
+
+/* Configure bg image defaults. */
+.driftbox img
+{
+	width: 100%;
+	max-height: 100%;
+	margin:auto;
+	display: block;
 }
 
 html {
@@ -196,7 +216,7 @@ a {
         }
     }
 }
-
+/*
 .intro {
     display: table;
     width: 100%;
@@ -220,9 +240,9 @@ a {
         }
         .intro-text {
             font-size: 18px;
-            /*@if $navbar-text-shadow {
+            @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
-            }*/
+            }
         }
     }
     @media(min-width:768px) {
@@ -238,7 +258,7 @@ a {
         }
     }
 }
-
+*/
 @-webkit-keyframes pulse {
     from {
         -webkit-transform: scale(1);

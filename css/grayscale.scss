@@ -282,7 +282,11 @@ a {
     padding-bottom: 20px;
     width: 65%;
     background-color: $white;
-    box-shadow: 0px 5px 5px $primary; //#888888;
+    //box-shadow: 0px 5px 5px $primary; //#888888;
+    border-top-style: none;
+    border-right-style: solid 1px $lightGrey;
+    border-bottom-style: solid 1px $lightGrey;
+    border-left-style: solid 1px $lightGrey;    
     @media(min-width:767px) {
         margin-top: 125px;
         padding-top: 125px;

@@ -59,7 +59,7 @@ This is version 1.0 of the extended GuiObjectView class. This version implements
 <br>
 <h2>Installation</h2>
 To install:<br>
-<b>1 -</b> Backup your existing <font color=$lightGrey>"source\T3D\guiObjectView.h"</font> and <font color=$lightGrey>"source\T3D\guiObjectView.cpp"</font> files.<br>
+<b>1 -</b> Backup your existing <font color="gray">"source\T3D\guiObjectView.h"</font> and <font color=$lightGrey>"source\T3D\guiObjectView.cpp"</font> files.<br>
 <b>2 -</b> Replace the "source\T3D\guiObjectView.h" and "source\T3D\guiObjectView.cpp" with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>
 <b>4 -</b> Create a script file for the GuiObjectView control and call the new script functions as needed. <br>

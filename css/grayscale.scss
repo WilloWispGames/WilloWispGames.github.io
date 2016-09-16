@@ -206,7 +206,7 @@ a {
     background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed, scroll;
     .intro-body {
         display: table-cell;
         vertical-align: middle;

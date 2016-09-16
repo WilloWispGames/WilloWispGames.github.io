@@ -192,7 +192,7 @@ a {
 
 .intro {
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     display: table;
     width: 100%;
     height: auto;
@@ -269,7 +269,7 @@ a {
 }
 
 .content-section {
-    z-index: 2;
+    z-index: 1;
     margin-top: 100px;
     margin-bottom: 20px;
     padding-top: 100px;

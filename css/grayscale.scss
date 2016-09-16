@@ -191,6 +191,7 @@ a {
 }
 
 .intro {
+    position: fixed;
     display: table;
     width: 100%;
     height: auto;
@@ -221,6 +222,7 @@ a {
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
+        z-index: -1;
         .intro-body {
             .brand-heading {
                 font-size: 100px;

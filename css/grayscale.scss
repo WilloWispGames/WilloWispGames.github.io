@@ -195,8 +195,7 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    margin: 0 0 0 0;
-    padding: 0px 0; //100px 0;
+    padding: 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}

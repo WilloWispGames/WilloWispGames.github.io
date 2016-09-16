@@ -124,6 +124,7 @@ a {
         &:focus,
         &:active {
             outline: none;
+            color: $dark;
         }
     }
     .navbar-brand {

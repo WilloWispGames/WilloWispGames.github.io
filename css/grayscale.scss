@@ -11,24 +11,16 @@
  */
 
 body {
-    display: table;
     width: 100%;
-    height: auto; // 100%;
-    padding: 100px 0;
+    height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary; 
-    {% if site.background-img %}
+    //background-color: $backdrop; 
     background: url({{ site.background-img }}) no-repeat bottom center;
-    {% endif %}
-    background-color: $backdrop; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover; 
-    @media(min-width:768px) {
-        //height: 100%;
-        padding: 0;
-    }    
+    -o-background-size: cover;
 }
 
 html {

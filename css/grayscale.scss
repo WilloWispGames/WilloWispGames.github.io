@@ -163,8 +163,10 @@ a {
             &.active {
                 background-color: transparent;
                 outline: none;
+                color: $dark;
                 a {
                     background-color: transparent;
+                    color: $dark;
                     &:hover {
                         background-color: transparent;
                         color: $dark;

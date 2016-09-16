@@ -15,7 +15,14 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary; 
+    {% if site.background-img %}
+    background: url({{ site.background-img }}) no-repeat bottom center;
+    {% endif %}
     background-color: $backdrop; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
 }
 
 html {
@@ -191,8 +198,6 @@ a {
 }
 
 .intro {
-    position: fixed;
-    z-index: 0;
     display: table;
     width: 100%;
     height: auto;
@@ -269,7 +274,6 @@ a {
 }
 
 .content-section {
-    z-index: 1;
     margin-top: 100px;
     margin-bottom: 20px;
     padding-top: 100px;

@@ -136,7 +136,7 @@ a {
         &:focus,
         &:active {
             outline: none;
-            color: rgba($primary, 0.7);
+            color: $secondary;
         }
     }
     a {

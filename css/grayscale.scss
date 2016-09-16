@@ -157,7 +157,7 @@ a {
                 &:active {
                     background-color: transparent;
                     outline: none;
-                    color: $primary;
+                    color: $black;
                 }
             }
             &.active {
@@ -167,7 +167,7 @@ a {
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
-                        color: $primary;
+                        color: $black;
                     }
                 }
             }

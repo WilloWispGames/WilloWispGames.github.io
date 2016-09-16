@@ -21,7 +21,7 @@ body {
 /* Declare the default 'driftbox' class. */
 .intro {
     width: 100%;
-    max-height: 400px;
+    max-height: 100%;
     margin: auto;
     //margin: 5px 1% 5px 1%;
     {% if site.background-img %}

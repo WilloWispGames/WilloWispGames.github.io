@@ -116,6 +116,7 @@ a {
     max-height: 100%;
     overflow-y: auto;
 
+    // Note that hover color is handled below in a{}.
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
@@ -123,9 +124,9 @@ a {
         &:focus,
         &:active {
             outline: none;
-            //color: $black;
         }
     }
+    // Override the a{} below for brand hover color.
     .navbar-brand {
         font-weight: 700;
         color: $primary;
@@ -136,7 +137,7 @@ a {
         &:focus,
         &:active {
             outline: none;
-            //color: $secondary;
+            color: $secondary;
         }
     }
     a {

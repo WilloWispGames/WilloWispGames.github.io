@@ -111,6 +111,7 @@ a {
     border-bottom: 1px solid rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: $secondary;
     background-color: $greyPane; 
 
     /* Fix height limit and scroll for small screen and many items menu */

@@ -124,7 +124,7 @@ a {
         &:focus,
         &:active {
             outline: none;
-            color: $dark;
+            color: $black;
         }
     }
     .navbar-brand {
@@ -158,7 +158,7 @@ a {
                 &:active {
                     background-color: transparent;
                     outline: none;
-                    color: $dark;
+                    color: $black;
                 }
             }
             &.active {
@@ -168,7 +168,7 @@ a {
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
-                        color: $dark;
+                        color: $black;
                     }
                 }
             }

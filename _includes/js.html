@@ -15,6 +15,7 @@
 * Code licensed under the Apache License v2.0.
 * For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
 
+<!--
 <script>
 function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
 $(document).ready(toggleNavCollapse);
@@ -31,16 +32,18 @@ $(function()
 });
 $(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
 </script>
+-->
 
+<!-- Collapse navbar when navbar-brand is clicked -->
+<!--
 {% if page.section-type == "index" %}
-
-  <!-- Collapse navbar when navbar-brand is clicked -->
 
   <script>
   $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse.in").animate({height:"1px"},500,function(){$(".collapse.in").removeClass("in")})})});
   </script>
 
 {% endif %}
+-->
 
 {% if site.syntax-highlight and page.section-type == "post" %}
 

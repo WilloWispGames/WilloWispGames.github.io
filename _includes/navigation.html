@@ -46,7 +46,8 @@
                 <a href="{{site.baseurl}}/blog/"> {{p[0]}} </a>
               {% endif %}
             {% else %}
-                <a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a>
+                <!--a href="{{site.baseurl}}/#{{ p[1] }}"> {{p[0]}} </a-->
+                <a href="{{site.baseurl}}/_includes/{{p[1]}}.html"> {{p[0]}} </a>
             {% endif %}
             </li>
           {% endfor %}

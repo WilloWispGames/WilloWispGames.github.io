@@ -184,9 +184,12 @@ a {
         }
     }
     @media(min-width:768px) {
-        padding: 20px 0;
-        letter-spacing: 1px;
+        padding: 0;
         background: rgba($black, 0.7); //$greyPane; 
+        border-bottom: 1px solid $black; //rgba($lightGrey, 0.7);        
+        //padding: 20px 0;
+        letter-spacing: 1px;
+        /*background: rgba($black, 0.7); //$greyPane; 
         border-bottom: 1px solid $black; //rgba($lightGrey, 0.7); 
         -webkit-transition: padding .5s ease-in-out; // background .5s ease-in-out,
         -moz-transition: padding .5s ease-in-out; // background .5s ease-in-out,
@@ -195,7 +198,7 @@ a {
             padding: 0;
             background: rgba($black, 0.7); //$greyPane; 
             border-bottom: 1px solid $black; //rgba($lightGrey, 0.7);
-        }
+        }*/
     }
 }
 

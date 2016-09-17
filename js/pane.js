@@ -1,4 +1,4 @@
-var $animation_elements = $('.animation-element');
+var $animation_elements = $('.pane');
 var $window = $(window);
 
 function check_if_in_view() {

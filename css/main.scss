@@ -4,11 +4,12 @@
 
 
 #footer {
+  clear: both;
   position: absolute;
   bottom: 0;
-  clear: both;
   width: 65%;
   height: 135px;
+  vertical-align: center;
 }
 
 #footer p {

@@ -127,7 +127,8 @@ a {
     // Note that hover color is handled below in a{}.
     .navbar-toggle {
         padding: 4px 6px;
-        font-size: 16px;
+        //font-size: 16px;
+        font-weight: 500;
         color: $white; //$secondary;
         &:focus,
         &:active {

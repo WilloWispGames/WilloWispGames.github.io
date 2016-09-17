@@ -110,14 +110,14 @@
 }
 
 .subject .header .date,
-.subject .header .category {
+.subject .header .cat {
   margin: 0px;
   clear: none;
   width: 50%;
 }
 
 .subject .header .date i,
-.subject .header .category i {
+.subject .header .cat i {
   margin-right: 5px;
   color: #333;
   -moz-transition: all 400ms linear;
@@ -131,7 +131,7 @@
   text-align: left;
 }
 
-.subject .header .category {
+.subject .header .cat {
   float: right;
   text-align: right;
 }

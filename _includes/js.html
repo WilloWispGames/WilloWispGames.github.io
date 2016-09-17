@@ -15,15 +15,11 @@
 * Code licensed under the Apache License v2.0.
 * For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
 
-{% if page.section-type == "projects" %}
-
-  <!-- Pane Start -->
-
+<!-- Pane Start -->
+{% if page.section-type == "projects" or page.section-type == "about" or page.section-type == "contact" %}
   <script src="{{site.baseurl}}/js/pane.js"></script>
-
-  <!-- Pane End -->
-
 {% endif %}
+<!-- Pane End -->
 
 {% if site.syntax-highlight and page.section-type == "post" %}
 

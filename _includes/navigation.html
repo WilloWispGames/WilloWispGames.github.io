@@ -25,18 +25,22 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right navbar-main-collapse"-->
       <ul class="nav navbar-nav">
-        {% if page.section-type == "index" %}
+        <li><a class="page-scroll" href="{{site.baseurl}}/_includes/projects.html">Projects</a></li>
+        <li><a class="page-scroll" href="{{site.baseurl}}/blog/">Blog</a></li>
+        <li><a class="page-scroll" href="{{site.baseurl}}/_includes/about.html">About</a></li>
+        <li><a class="page-scroll" href="{{site.baseurl}}/_includes/contact.html">Contact</a></li>
+        <!--{% if page.section-type == "index" %}-->
 
           <!-- Scroll to section for each page in index -->
-          {% for p in site.pages_list %}
+          <!--{% for p in site.pages_list %}
             <li>
               <a class="page-scroll" href="#{{ p[1] }}"> {{p[0]}} </a>
             </li>
-          {% endfor %}
+          {% endfor %}-->
 
-        {% else %}
+        <!--{% else %}-->
           <!-- Blog, Post, Tag and Error pages -->
-          {% for p in site.pages_list %}
+          <!--{% for p in site.pages_list %}
             <li>
             {% if p[1] == "latest-post" %}
               {% if page.url == "/blog/index.html" | prepend: {{site.baseurl}} %}
@@ -49,7 +53,7 @@
             {% endif %}
             </li>
           {% endfor %}
-        {% endif %}
+        {% endif %}-->
       </ul>
     </div>
   </div>

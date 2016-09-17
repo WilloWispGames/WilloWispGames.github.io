@@ -9,7 +9,7 @@ title: Contact
 Drop us an email if you are interested in us coding for you or saving your neighborhood!
 </div>
 
-{% if site.email %}
+<!--{% if site.email %}
   {% if site.email contains '@' %}
     {% assign newemail = site.email | split: '@' %}
       <div class="p2">
@@ -25,7 +25,7 @@ Drop us an email if you are interested in us coding for you or saving your neigh
         );
         </script>
       </div>
-  {% else %}
+  {% else %}-->
     <div class="p2"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
-  {% endif %}
-{% endif %}
+  <!--{% endif %}
+{% endif %}-->

@@ -1,26 +1,16 @@
 
 # Site settings
 
-# NB! Set your site's url, otherwise stuff will break :)
-#url: "https://github.com/WilloWispGames/WilloWispGames.github.io"
+# Site url.
 url: "https://WilloWispGames.github.io"
-#url: "WilloWispGames/WilloWispGames.github.io"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-#baseurl: "/WilloWispGames.github.io"
+# Use if hosting at Github Pages.
 baseurl: ""
 
-# Google tracking id to track your visitors
+# Google tracking id.
 google-tracking-id: ""
 
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
+# Forces https everywhere in the site. 
 force-https: False
 
 #############
@@ -37,8 +27,6 @@ favicon: "/img/favicon.ico"
 # Header layout #
 ################
 black-favicon: "/img/favicon.ico"
-
-#background-img: "../img/night-bg.png"
 background-img: "../img/day-bg.png"
 
 ##############################

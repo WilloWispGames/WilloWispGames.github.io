@@ -115,10 +115,10 @@ a {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba($lightGrey, 0.7); 
+    border-bottom: 1px solid $black; //rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $greyPane; 
+    background-color: $primary; //$greyPane; 
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -128,7 +128,7 @@ a {
     .navbar-toggle {
         padding: 4px 6px;
         font-size: 16px;
-        color: $secondary;
+        color: $white; //$secondary;
         &:focus,
         &:active {
             outline: none;
@@ -137,7 +137,7 @@ a {
     // Override the a{} below for brand hover color.
     .navbar-brand {
         font-weight: 700;
-        color: $primary;
+        color: $white; //$primary;
         -webkit-transition: color .3s ease-in-out;
         -moz-transition: color .3s ease-in-out;
         transition: color .3s ease-in-out;        
@@ -166,7 +166,7 @@ a {
                 &:active {
                     background-color: transparent;
                     outline: none;
-                    color: $black;
+                    color: $secondary; //$black;
                 }
             }
             &.active {
@@ -176,7 +176,7 @@ a {
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
-                        color: $black;
+                        color: $secondary; //$black;
                     }
                 }
             }
@@ -186,14 +186,14 @@ a {
         padding: 20px 0;
         letter-spacing: 1px;
         background: $greyPane; 
-        border-bottom: 1px solid rgba($lightGrey, 0.7); 
+        border-bottom: 1px solid $black; //rgba($lightGrey, 0.7); 
         -webkit-transition: padding .5s ease-in-out; // background .5s ease-in-out,
         -moz-transition: padding .5s ease-in-out; // background .5s ease-in-out,
         transition: padding .5s ease-in-out; // background .5s ease-in-out,
         &.top-nav-collapse {
             padding: 0;
             background: $greyPane; 
-            border-bottom: 1px solid rgba($lightGrey, 0.7);
+            border-bottom: 1px solid $black; //rgba($lightGrey, 0.7);
         }
     }
 }

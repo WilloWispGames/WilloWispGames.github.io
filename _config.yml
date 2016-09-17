@@ -2,7 +2,6 @@
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
-
 url: "https://github.com/WilloWispGames/WilloWispGames.github.io"
 #url: "WilloWispGames/WilloWispGames.github.io"
 
@@ -12,24 +11,20 @@ url: "https://github.com/WilloWispGames/WilloWispGames.github.io"
 # then add in the baseurl here, like this: "/repository-name"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
-
 baseurl: "/WilloWispGames.github.io"
 
 # Google tracking id to track your visitors
-
 #google-tracking-id: "UA-35880426-4"
 google-tracking-id: ""
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
-
 force-https: False
 
 #############
 # HTML Head #
 #############
-
 lang: "en"
 author: "Jesse Allen"
 title: "Will o' Wisp Games"
@@ -40,27 +35,14 @@ favicon: "/img/favicon.ico"
 ################
 # Header layout #
 ################
-
-#black-favicon: "/img/black-lab-glass.ico"
 black-favicon: "/img/favicon.ico"
 
 #background-img: "../img/night-bg.png"
 background-img: "../img/day-bg.png"
 
 ##############################
-# Dynamic Text on the Header #
+# Intro table cell image     #
 ##############################
-
-dynamic-typing: False
-shuffle: True # Shuffle the lines.
-loop: False # True
-loop-count: 1 #False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "Welcome to the new site( under construction )"
-
 me-img: "/img/wowLogo.png"
 
 ##############################
@@ -72,11 +54,9 @@ apple-status-bar-style: "black"
 ################
 # Web app mode #
 ################
-
 web-app-mode: True
 
 # Icons for Web App mode
-
 icon-36p: "/img/web-app/wowLogo-36p.png"
 icon-48p: "/img/web-app/wowLogo-48p.png"
 icon-72p: "/img/web-app/wowLogo-72p.png"
@@ -87,7 +67,6 @@ icon-192p: "/img/web-app/wowLogo-192p.png"
 ########
 # Blog #
 ########
-
 post-preview-words: 96
 
 paginate: 5
@@ -107,35 +86,14 @@ disqus-shortname: "willowispgames"
 
 syntax-highlight: True
 
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/wowLogo.png"
-    date: "November 2015 - Today"
-    description: "Project specific engine modifications"
-  - image: "/img/wowLogo.png"
-    date: "November 2015"
-    description: "Began development on current project"
-  - image: "/img/wowLogo.png"
-    date: "November 2013 - 2015"
-    description: "Research and development"    
-
-# First image of the Timeline
-
-timeline-img: "/img/wowLogo.png"
-
 ###########
 # Contact #
 ###########
-
 email: "contact@willowispgames.com"
 
 ##################
 # Social Buttons #
 ##################
-
 social:
   - title: "facebook"
     url: "https://facebook.com/"
@@ -151,15 +109,12 @@ social:
 ############
 # 404 page #
 ############
-
 404-img: "/img/labtocat.png"
 
 ################################################################################
-
 # NB! Tread carefully if you want to change the variables below this point!
 
 # Sections shown in the index page
-
 pages_list:
   Projects: 'projects'
   Blog: 'latest-post'
@@ -167,15 +122,12 @@ pages_list:
   Contact: 'contact'
 
 # Exclusion list from the generated _site
-
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
-
 paginate_path: "blog/page:num/"
 
 # Enable minification SASS
-
 sass:
   style: compressed
 

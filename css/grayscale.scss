@@ -145,11 +145,11 @@ a {
         &:focus,
         &:active {
             outline: none;
-            color: darken($white,20%);
+            color: darken($white,25%);
         }
     }
     a {
-        color: darken($white,20%);
+        color: darken($white,25%);
         /*@if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 1);
         }*/
@@ -166,7 +166,7 @@ a {
                 &:active {
                     background-color: transparent;
                     outline: none;
-                    color: $secondary; //$black;
+                    color: darken($white,25%); //$black;
                 }
             }
             &.active {
@@ -176,7 +176,7 @@ a {
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
-                        color: $secondary; //$black;
+                        color: darken($white,25%); //$black;
                     }
                 }
             }

@@ -118,7 +118,7 @@ a {
     border-bottom: 1px solid $black; //rgba($lightGrey, 0.7); 
     text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: $primary; //$greyPane; 
+    background-color: rgba($black, 0.7); //$greyPane; 
 
     /* Fix height limit and scroll for small screen and many items menu */
     max-height: 100%;
@@ -145,11 +145,11 @@ a {
         &:focus,
         &:active {
             outline: none;
-            color: $secondary;
+            color: darken($white,20%);
         }
     }
     a {
-        color: $secondary;
+        color: darken($white,20%);
         /*@if $header-text-shadow{
             text-shadow: 0 0 2px rgba(0, 0, 0, 1);
         }*/

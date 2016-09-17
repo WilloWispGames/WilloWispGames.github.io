@@ -9,7 +9,13 @@
 
     {% include navigation.html %}
     
-    {% include projects.html %}
+    <div>
+      {% for post in paginator.posts %}
+        {% include projects.html %}
+      {% endfor %}
+    </div>
+
+    {% include pagination.html %}
 
     {% include footer.html %}
     {% include js.html %}

@@ -8,8 +8,8 @@ $greyPane: #f5f5f5;
 $lightGrey: #bdbdbd;
 $link-color: #1976d2;
 
-$navbar-text-shadow: false; 
-$header-text-shadow: false; 
+$navbar-text-shadow: true; 
+$header-text-shadow: true; 
 $intro-text-color: $white; // deprecated dynamic typed text 
 
 $social-buttons-color: lighten($link-color,20%); 

@@ -12,10 +12,10 @@ url: "https://WilloWispGames.github.io"
 # then add in the baseurl here, like this: "/repository-name"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
-baseurl: "/WilloWispGames.github.io"
+#baseurl: "/WilloWispGames.github.io"
+baseurl: ""
 
 # Google tracking id to track your visitors
-#google-tracking-id: "UA-35880426-4"
 google-tracking-id: ""
 
 # Forces https everywhere in your website, except when you serve it locally

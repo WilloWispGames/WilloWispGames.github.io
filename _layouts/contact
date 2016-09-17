@@ -1,0 +1,18 @@
+<!-- Contact Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+    
+    <!-- ADD INCLUDE FOR CONTACT.HTML -->
+    
+    {% include footer.html %}
+    {% include js.html %}
+
+  </body>
+</html>

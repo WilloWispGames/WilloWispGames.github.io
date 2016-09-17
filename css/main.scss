@@ -3,31 +3,14 @@
 @import "variables";
 
 
-#navigation {
-position: fixed;
-top: 0;
-width: 100%;
-color: #ffffff;
-height: 35px;
-text-align: center;
-padding-top: 15px;
-/* Adds shadow to the bottom of the bar */
--webkit-box-shadow: 0px 0px 8px 0px #000000;
--moz-box-shadow: 0px 0px 8px 0px #000000;
-box-shadow: 0px 0px 8px 0px #000000;
-/* Adds the transparent background */
-background-color: rgba(1, 1, 1, 0.8);
-color: rgba(1, 1, 1, 0.8);
-} 
-
-#navigation a {
-font-size: 16px;
-padding-left: 15px;
-padding-right: 15px;
-color: white;
-text-decoration: none;
+#footer {
+  clear: both;
+  width: 65%;
+  height: 135px;
+  border-top: 1px solid #111;
 }
 
-#navigation a:hover {
-color: grey;
+#footer p {
+  text-align: center;
+  padding: 10px;
 }

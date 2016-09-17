@@ -291,7 +291,8 @@ a {
     border-top: none;
     border-right: solid 1px $lightGrey;
     border-bottom: solid 1px $lightGrey;
-    border-left: solid 1px $lightGrey;    
+    border-left: solid 1px $lightGrey;
+    overflow-y: scroll;
     @media(min-width:767px) {
         margin-top: 100px;
         margin-bottom: 20px;

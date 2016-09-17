@@ -4,9 +4,8 @@
 * Modern and minimal design
   * Responsive on mobile, tablet, and desktop devices.
   * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.
-* Timelines
 * Blogging functionality
-  * Preview of the latest post in the home page
+  * Preview of the latest post 
   * Archive page
   * Syntax highlighting
   * Emojis

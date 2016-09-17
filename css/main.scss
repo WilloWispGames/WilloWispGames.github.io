@@ -23,42 +23,17 @@
       padding-bottom: 20px;        
   }
 }
-    /* Added in { Personal } for responsive images in posts and section contents
-    img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        border: 1px solid $primary; //$light;
-    }
-    Added in { Personal } */
-#content ul, ol {
-  text-align: center;
-  margin: 0 0 25px;
-  font-size: 18px;
-  line-height: 1.5;
-  list-style-position: inside;
+/* Added in { Personal } for responsive images in posts and section contents
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid $primary; //$light;
 }
-#content pre {
-  padding: 0;
-  > code {
-    text-align: left;
-  }
-}
-#content img.emoji {
-  /* Override any img styles to ensure Emojis are displayed inline */
-  margin: 0px !important;
-  display: inline !important;
-  //border: 1px solid $dark !important;
-}
-/* Added in { Personal } */
-#content &#post {
-  div.author img {
-    border: 0px;
-    margin-bottom: 20px;
-    padding: 4px;
-  }
-}
+Added in { Personal } */
+
+
 
 
 #footer {

@@ -160,7 +160,7 @@ i.fa {
 }
 
 /*Category color / icon color*/
-.subject .category-color {
+.subject .cat-color {
   height: 7px;
   position: absolute;
   top: 0px;
@@ -168,17 +168,17 @@ i.fa {
   width: 100%;
 }
 
-.subject.design .category-color,
+.subject.design .cat-color,
 .subject.design .icon i {
   background: #c0392b;
 }
 
-.subject.development .category-color,
+.subject.development .cat-color,
 .subject.development .icon i {
   background: #16a085;
 }
 
-.subject.photography .category-color,
+.subject.photography .cat-color,
 .subject.photography .icon i {
   background: #2980b9;
 }

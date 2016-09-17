@@ -4,3 +4,28 @@ section-type: contact
 title: Contact
 ---
 ## Contact
+
+      <div class="p2">
+      Drop us an email if you are interested in us coding for you or saving your neighborhood!
+      </div>
+
+      {% if site.email %}
+        {% if site.email contains '@' %}
+          {% assign newemail = site.email | split: '@' %}
+            <div class="p2">
+            <script>
+              function join_at_email(user, domain){
+              return (user && domain)?(user + "@" + domain):"";
+              }
+              document.write('<a href="mailto:'
+              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
+              + '">'
+              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
+              + '</a>'
+              );
+              </script>
+            </div>
+        {% else %}
+          <div class="p2"><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+        {% endif %}
+      {% endif %}

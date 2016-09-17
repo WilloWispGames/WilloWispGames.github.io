@@ -27,19 +27,19 @@ i.fa {
   clear: both;
 }
 
-.main-container {
+.main-area {
   background: #fff;
   max-width: 1000px;
   margin: 25px 25px auto;
   position: relative;
 }
 
-.container {
+.area {
   position: relative;
   padding: 25px;
 }
 
-.container:last-of-type {
+.area:last-of-type {
   padding-top: 0px;
 }
 
@@ -228,7 +228,7 @@ i.fa {
 
 /*media queries for small devices*/
 @media screen and (max-width: 678px) {
-  .main-container {
+  .main-area {
     margin: 20px 15px;
   }
   .animation-element,

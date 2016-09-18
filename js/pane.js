@@ -15,11 +15,11 @@ function isPaneVisible() {
     var pane_bottom_position = (pane_top_position + pane_height);
 
     //check to see if this current container is within viewport
-    if ((pane_bottom_position >= window_top_position) &&
-      (pane_top_position <= window_bottom_position)) {
+    /*if ((pane_bottom_position >= window_top_position) &&
+      (pane_top_position <= window_bottom_position)) {*/
       $pane.addClass('in-view');
-    } else {
-      $pane.removeClass('in-view');
-    }
+    //} else {
+    //  $pane.removeClass('in-view');
+    //}
   });
 }

@@ -2,50 +2,6 @@
 ---
 @import "variables";
 
-.background-div {
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat fixed;
-    {% endif %;
-    width: 100%px;
-    height: auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    opacity: 1;
-    animation: fadeout 2s forwards;
-    animation-delay: 2s;
-    -moz-animation: fadeout 2s forwards;
-    -moz-animation-delay: 2s;
-    -webkit-animation: fadeout 2s forwards;
-    -webkit-animation-delay: 2s;
-    -o-animation: fadeout 2s forwards;
-    -o-animation-delay: 2s;
-}
-
-
-@keyframes fadeout {
-    to {
-        opacity: 0;
-    }
-
-}
-@-moz-keyframes fadeout {
-    to {
-        opacity: 0;
-    }
-}
-@-webkit-keyframes fadeout {
-    to {
-        opacity: 0;
-    }
-}
-@-o-keyframes fadeout {
-    to {
-        opacity: 0;
-    }
-}
 
 #footer {
   //clear: both;

@@ -25,7 +25,6 @@
 .main-area {
   width: 100%;
   height: auto;
-  margin: 0px 0px 0px 0px;
   //position: relative;
   {% if site.background-img %}
   background: url({{ site.background-img }}) no-repeat fixed;

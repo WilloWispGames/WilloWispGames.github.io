@@ -1,5 +1,4 @@
 var $projectpanes = $('.projectpane');
-var $window = $(window);
 
 function initProjectPanes() {
   $.each($projectpanes, function() {

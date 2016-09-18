@@ -15,14 +15,17 @@
 * Code licensed under the Apache License v2.0.
 * For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
 
-<!-- Pane Start -->
+
 {% if page.section-type == "projects" %}
   <script src="{{site.baseurl}}/js/pane.js"></script>
 {% endif %}
-<!-- Pane End -->
 
 {% if page.section-type == "about" %}
-  <script src="{{site.baseurl}}/js/elements.js"></script>
+  <script src="{{site.baseurl}}/js/pane.js"></script>
+{% endif %}
+
+{% if page.section-type == "contact" %}
+  <script src="{{site.baseurl}}/js/pane.js"></script>
 {% endif %}
 
 {% if site.syntax-highlight and page.section-type == "post" %}

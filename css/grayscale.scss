@@ -26,12 +26,16 @@ body {
     -o-background-size: cover;
     overflow: hidden;
     opacity: 1;
-    transition: 1s opacity;
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
 }
 
 body.fade-out {
     opacity: 0;
-    transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        transition: none;
 }
 
 

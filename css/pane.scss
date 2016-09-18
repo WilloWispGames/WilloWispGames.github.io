@@ -205,10 +205,10 @@
 }
 
 .subject.default .cat-color {
-  background: $link-color;
+  background: lighten($link-color, 20%);
 }
 .subject.default .icon i {
-  background: $link-color;
+  background: lighten($link-color, 20%);
 }
 
 .subject.design .cat-color,

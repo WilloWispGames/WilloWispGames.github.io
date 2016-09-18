@@ -1,5 +1,4 @@
 var $contactpanes = $('.contactpane');
-var $window = $(window);
 
 function initContactPanes() {
   $.each($contactpanes, function() {

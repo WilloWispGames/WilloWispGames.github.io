@@ -17,8 +17,7 @@ body {
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary; 
     {% if site.background-img %}
-    background: url({{ site.background-img }}); // no-repeat top center;
-    background-repeat: no-repeat;
+    background: url({{ site.background-img }}) no-repeat fixed;
     {% endif %}
     background-color: $backdrop; 
     -webkit-background-size: cover;

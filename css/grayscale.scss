@@ -203,34 +203,6 @@ a {
     }
 }
 
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: $primary;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
-    background-color: $backdrop;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    .intro-body {
-        display: table-cell;
-        vertical-align: middle;
-    }
-    @media(min-width:768px) {
-        height: 100%;
-        padding: 0;
-        .intro-body {
-
-        }
-    }
-}
-
 @-webkit-keyframes pulse {
     from {
         -webkit-transform: scale(1);

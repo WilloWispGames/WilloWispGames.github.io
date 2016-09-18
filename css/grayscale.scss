@@ -207,32 +207,28 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    padding: 0;
+    padding: 100px 0;
     text-align: center;
-    color: $intro-text-color;
+    color: $primary;
     {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat fixed;
+    background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
     background-color: $backdrop;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    opacity: 1;
-        -webkit-transition: all .5s ease-out;
-        -moz-transition: all .5s ease-out;
-        transition: all .5s ease-out;    
-    
+    .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+    }
     @media(min-width:768px) {
         height: 100%;
         padding: 0;
+        .intro-body {
+
+        }
     }
-}
-.intro.fade-out {
-    opacity: 0;
-        -webkit-transition: none;
-        -moz-transition: none;
-        transition: none;
 }
 
 @-webkit-keyframes pulse {

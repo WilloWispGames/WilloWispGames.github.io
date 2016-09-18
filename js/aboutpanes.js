@@ -1,6 +1,6 @@
 var $aboutpanes = $('.aboutpane');
 
-function initAboutPanes() {
+function initAboutPane() {
   $.each($aboutpanes, function() {
     var $aboutpane = $(this);
     $aboutpane.addClass('in-view');

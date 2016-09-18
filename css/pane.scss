@@ -22,12 +22,12 @@
   clear: both;
 }
 
-/*.main-area {
+.main-area {
   background: #fff;
   width: 100%;
   margin: 0px 0px auto;
   position: relative;
-}*/
+}
 
 .area {
   position: relative;
@@ -264,9 +264,10 @@
 
 /*media queries for small devices*/
 @media screen and (max-width: 678px) {
-  //.main-area {
-  //  margin: 20px 15px;
-  //}
+  .main-area {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+  }
   .pane,
   .projectpane,
   .aboutpane,

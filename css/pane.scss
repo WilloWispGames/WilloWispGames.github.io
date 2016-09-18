@@ -27,7 +27,7 @@
   height: auto;
   //position: relative;
   {% if site.background-img %}
-  background: url({{ site.background-img }}) no-repeat relative;
+  background: url("{{ site.baseurl }}/img/projarea.png") no-repeat relative;
   {% endif %}
   background-color: $backdrop; 
   -webkit-background-size: cover;

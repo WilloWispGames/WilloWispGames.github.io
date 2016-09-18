@@ -45,6 +45,7 @@
   width: 65%;
   margin: 0% 1.33 2.66% 1.33%;
   //float: left;
+  //overflow-y: auto;
 }
 
 .projectpane {
@@ -126,10 +127,9 @@
   float: left;
   width: 100%;
   margin: 0% 1.33% 2.66% 1.33%;
-  background: $backdrop; //$white;
+  background: $greyPane; //$white;
   padding: 15px;
   //border: solid 1px $black;
-  overflow-y: auto;
 }
 
 .subject:hover,
@@ -196,10 +196,10 @@
 }
 
 .subject.default .cat-color {
-  background: $primary;
+  background: $backdrop;
 }
 .subject.default .icon i {
-  background: $primary;
+  background: $backdrop;
 }
 
 .subject.design .cat-color,
@@ -237,6 +237,7 @@
 }
 
 .subject .content {
+  text-align: left;
   margin-bottom: 8px;
 }
 

@@ -19,9 +19,16 @@
   <link href="{{site.baseurl}}/css/grayscale.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   
-  {% if page.section-type == "projects" %}
+  {% if page.layout == "projects" %}
     <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
   {% endif %}
+  {% if page.layout == "about" %}
+    <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
+  {% endif %}
+  {% if page.layout == "contact" %}
+    <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
+  {% endif %}  
+  
 
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

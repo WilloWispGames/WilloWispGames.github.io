@@ -1,0 +1,20 @@
+<!-- Base Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body onload="initPanes()" >
+
+    {% include navigation.html %}
+    
+    {% if page.section-type == "projects" %}
+      {% include projectsPane.html %}
+    {% endif %}
+
+    {% include footer.html %}
+    {% include js.html %}
+
+  </body>
+</html>

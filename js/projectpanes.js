@@ -10,10 +10,10 @@ function initProjectPanes() {
 }
 
 function changeBackground() {
-  $('body').animate(
+  $('intro').animate(
     {"opacity": 1}, 
     2000, function(){
-      $('body').css("opacity", 0);
+      $('intro').css("opacity", 0);
     }
   );
 }
@@ -21,8 +21,8 @@ function changeBackground() {
 //Auto change Background Image over time
 $(window).load(function() {
     // Init sequence, loading the first image
-    $('body').css("opacity", 1);
+    $('intro').css("opacity", 1);
     changeBackground();
 
-    setInterval(changeBackground, 3000);
+    //setInterval(changeBackground, 3000);
 });

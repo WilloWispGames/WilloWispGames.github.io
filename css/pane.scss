@@ -128,7 +128,8 @@
   margin: 0% 1.33% 2.66% 1.33%;
   background: $white;
   padding: 15px;
-  border: solid 1px $black;
+  //border: solid 1px $black;
+  overflow-y: auto;
 }
 
 .subject:hover,

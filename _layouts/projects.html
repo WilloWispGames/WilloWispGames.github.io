@@ -6,7 +6,8 @@
   {% include head.html %}
 
   <body onload="initProjectPanes()" >
-
+  <script>document.body.className += ' fade-out';</script>
+  window.onload = function () { document.body.className = "";}
     {% include navigation.html %}
     
     {% include projectPanes.html %}

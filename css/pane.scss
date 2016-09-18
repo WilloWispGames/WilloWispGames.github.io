@@ -3,6 +3,7 @@
 @import "variables";
 
 
+
 *,
 *:before,
 *:after {
@@ -233,9 +234,9 @@
 
 /*media queries for small devices*/
 @media screen and (max-width: 678px) {
-  .main-area {
-    margin: 20px 15px;
-  }
+  //.main-area {
+  //  margin: 20px 15px;
+  //}
   .pane,
   .animation-element,
   .animation-element:nth-of-type(3n-1),

@@ -106,7 +106,7 @@ social:
 # Sections shown in the index page
 pages_list:
   Projects: 'projects'
-  Blog: 'latest-post'
+  Blog: 'blog'
   About: 'about'
   Contact: 'contact'
 

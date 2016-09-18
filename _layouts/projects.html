@@ -5,15 +5,14 @@
 
   {% include head.html %}
 
-  <body onload="initProjectPanes()" >
+  <body id="projectbody" onload="initProjectPanes()" >
 
     {% include navigation.html %}
-    <div id="header">
-    
+
     {% include projectPanes.html %}
 
     {% include footer.html %}
-    </div>
+
     {% include js.html %}
 
   </body>

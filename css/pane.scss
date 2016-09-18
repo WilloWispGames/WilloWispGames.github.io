@@ -126,10 +126,10 @@
   float: left;
   width: 100%;
   margin: 0% 1.33% 2.66% 1.33%;
-  background: rgba($white, 0.85); //$greyPane;
+  background: $white; //$greyPane;
   padding: 15px;
   //box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  border: solid 1px $black;
+  border: solid 1px $lightGrey;
 }
 
 .subject:hover,
@@ -196,10 +196,10 @@
 }
 
 .subject.default .cat-color {
-  background: rgba($black, 0.7);
+  background: $secondary;
 }
 .subject.default .icon i {
-  background: $link-color;
+  background: $black;
 }
 
 .subject.design .cat-color,
@@ -219,7 +219,7 @@
 
 /*hovering over subject*/
 .subject.default:hover .header i {
-  color: $link-color;
+  color: $black;
 }
 
 .subject.development:hover .header i {

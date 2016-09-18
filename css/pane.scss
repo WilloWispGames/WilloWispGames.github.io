@@ -205,20 +205,20 @@
 }
 
 .subject.default .cat-color {
-  background: #1e88e5; //darken($link-color, 5%);
+  background: lighten($link-color, 15%);
 }
 .subject.default .icon i {
-  background: #1e88e5; //darken($link-color, 5%);
+  background: lighten($link-color, 15%);
 }
 
 .subject.design .cat-color,
 .subject.design .icon i {
-  background: #64b5f6; //lighten($link-color, 15%);
+  background: #64b5f6; 
 }
 
 .subject.development .cat-color,
 .subject.development .icon i {
-  background: #64b5f6; //lighten($link-color, 15%);
+  background: #64b5f6; 
 }
 
 .subject.photography .cat-color,

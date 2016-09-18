@@ -6,7 +6,12 @@
   {% include head.html %}
 
   <body onload="initProjectPanes()" >
-  <script>document.body.className += ' fade-out';</script>
+  <script>
+  document.body.className += ' fade-out';
+  $(function() {
+    $('body').removeClass('fade-out');
+  });
+  </script>
 
     {% include navigation.html %}
     

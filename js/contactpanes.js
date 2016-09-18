@@ -1,6 +1,6 @@
 var $contactpanes = $('.contactpane');
 
-function initContactPanes() {
+function initContactPane() {
   $.each($contactpanes, function() {
     var $contactpane = $(this);
     $contactpane.addClass('in-view');

@@ -10,6 +10,15 @@ function initPanes() {
   });
 }
 
+var $aboutpanes = $('.pane');
+
+function initAboutPanes() {
+  $.each($aboutpanes, function() {
+    var $aboutpane = $(this);
+    $aboutpane.addClass('in-view');
+  });
+}
+
 function isPaneVisible() {
   var window_height = $window.height();
   var window_top_position = $window.scrollTop();

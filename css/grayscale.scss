@@ -25,7 +25,15 @@ body {
     background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
+    opacity: 1;
+    transition: 1s opacity;
 }
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
 
 html {
     width: 100%;

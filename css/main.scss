@@ -2,39 +2,50 @@
 ---
 @import "variables";
 
-#content {
-  margin-top: 100px;
-  margin-bottom: 135px;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  width: 65%;
-  height: auto;
-  background-color: $white;
-  //box-shadow: 0px 5px 5px $primary; //#888888;
-  border-top: none;
-  border-right: solid 1px $lightGrey;
-  border-bottom: solid 1px $lightGrey;
-  border-left: solid 1px $lightGrey;
-  overflow-y: scroll;
-  @media(min-width:767px) {
-      margin-top: 100px;
-      margin-bottom: 135px;
-      padding-top: 100px;
-      padding-bottom: 20px;        
-  }
-}
-/* Added in { Personal } for responsive images in posts and section contents
-img {
-    display: block;
-    max-width: 100%;
+.background-div {
+    {% if site.background-img %}
+    background: url({{ site.background-img }}) no-repeat fixed;
+    {% endif %;
+    width: 100%px;
     height: auto;
-    margin: 0 auto;
-    border: 1px solid $primary; //$light;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    opacity: 1;
+    animation: fadeout 2s forwards;
+    animation-delay: 2s;
+    -moz-animation: fadeout 2s forwards;
+    -moz-animation-delay: 2s;
+    -webkit-animation: fadeout 2s forwards;
+    -webkit-animation-delay: 2s;
+    -o-animation: fadeout 2s forwards;
+    -o-animation-delay: 2s;
 }
-Added in { Personal } */
 
 
+@keyframes fadeout {
+    to {
+        opacity: 1;
+    }
 
+}
+@-moz-keyframes fadeout {
+    to {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeout {
+    to {
+        opacity: 0;
+    }
+}
+@-o-keyframes fadeout {
+    to {
+        opacity: 0;
+    }
+}
 
 #footer {
   //clear: both;

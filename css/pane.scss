@@ -204,21 +204,19 @@
   width: 100%;
 }
 
-.subject.default .cat-color {
-  background: #64b5f6;
-}
+.subject.default .cat-color,
 .subject.default .icon i {
   background: #64b5f6;
 }
 
 .subject.design .cat-color,
 .subject.design .icon i {
-  background: #64b5f6; 
+  background: #c0392b; 
 }
 
 .subject.development .cat-color,
 .subject.development .icon i {
-  background: #64b5f6; 
+  background: #16a085; 
 }
 
 .subject.photography .cat-color,
@@ -227,6 +225,10 @@
 }
 
 /*hovering over subject*/
+.subject.default:hover .header i {
+  color: #64b5f6;
+}
+
 .subject.development:hover .header i {
   color: #16a085;
 }

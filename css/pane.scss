@@ -196,7 +196,7 @@
 }
 
 .subject.default .cat-color {
-  background: $secondary;
+  background: $black;
 }
 .subject.default .icon i {
   background: $black;
@@ -218,10 +218,6 @@
 }
 
 /*hovering over subject*/
-.subject.default:hover .header i {
-  color: $lightGrey;
-}
-
 .subject.development:hover .header i {
   color: #16a085;
 }

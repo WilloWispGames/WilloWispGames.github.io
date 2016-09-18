@@ -27,14 +27,14 @@
   height: auto;
   //position: relative;
   {% if site.background-img %}
-  background: url({{ site.background-img }}) no-repeat fixed;
+  background: url({{ site.background-img }}) no-repeat relative;
   {% endif %}
   background-color: $backdrop; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  overflow: hidden;  
+  //overflow: hidden;  
 }
 
 .area {

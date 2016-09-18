@@ -59,7 +59,6 @@
 .projectpane {
   position: relative;
   padding-top: 100px;
-  padding-bottom: 135px;
   width: 65%;
   margin: 0% 1.33 2.66% 1.33%;
   //float: left;
@@ -241,12 +240,14 @@
 }
 
 .subject .title {
+  color: $white;
   margin: 12px 0px;
   border-bottom: dashed 1px #ccc;
   padding-bottom: 10px;
 }
 
 .subject .content {
+  color: $white;
   text-align: left;
   margin-bottom: 8px;
 }

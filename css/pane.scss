@@ -135,9 +135,9 @@
   float: left;
   width: 100%;
   margin: 0% 1.33% 2.66% 1.33%;
-  background: #424242; //$greyPane;
+  background: $white; //$greyPane;
   padding: 15px;
-  border: solid 1px lighten(#424242,20%);
+  border: solid 1px $lightGrey;
   box-shadow: 0px 2px 6px rgba($black, 0.25);
 }
 
@@ -205,10 +205,10 @@
 }
 
 .subject.default .cat-color {
-  background: #303030;
+  background: $link-color;
 }
 .subject.default .icon i {
-  background: #303030;
+  background: $link-color;
 }
 
 .subject.design .cat-color,
@@ -240,14 +240,14 @@
 }
 
 .subject .title {
-  color: $white;
+  color: $primary;
   margin: 12px 0px;
   border-bottom: dashed 1px #ccc;
   padding-bottom: 10px;
 }
 
 .subject .content {
-  color: $white;
+  color: $primary;
   text-align: left;
   margin-bottom: 8px;
 }

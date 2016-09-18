@@ -9,6 +9,7 @@ function initProjectPanes() {
   });
 }
 
+/*
 function changeBackground() {
   $('intro').animate(
     {"opacity": 1}, 
@@ -26,3 +27,4 @@ $(window).load(function() {
 
     //setInterval(changeBackground, 3000);
 });
+*/

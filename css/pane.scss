@@ -188,7 +188,7 @@
 .subject .icon i {
   width: 40px;
   height: 40px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0); //rgb(255, 255, 255);
   font-size: 150%;
   border-radius: 50%;
   text-align: center;
@@ -205,10 +205,10 @@
 }
 
 .subject.default .cat-color {
-  background: lighten($link-color, 15%);
+  background: #64b5f6;
 }
 .subject.default .icon i {
-  background: lighten($link-color, 15%);
+  background: #64b5f6;
 }
 
 .subject.design .cat-color,

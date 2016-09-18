@@ -3,7 +3,6 @@
 @import "variables";
 
 
-
 *,
 *:before,
 *:after {
@@ -130,7 +129,7 @@
   background: $greyPane;
   padding: 15px;
   //box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
-  border: solid 1px $lightGrey;
+  border: solid 1px $black;
 }
 
 .subject:hover,
@@ -196,6 +195,13 @@
   width: 100%;
 }
 
+.subject.default .cat-color {
+  background: rgba($black, 0.7);
+}
+.subject.default .icon i {
+  background: $link-color;
+}
+
 .subject.design .cat-color,
 .subject.design .icon i {
   background: #c0392b;
@@ -212,6 +218,10 @@
 }
 
 /*hovering over subject*/
+.subject.default:hover .header i {
+  color: $link-color;
+}
+
 .subject.development:hover .header i {
   color: #16a085;
 }

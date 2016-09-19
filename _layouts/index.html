@@ -5,17 +5,20 @@
 <html lang="{{ site.lang }}">
   {% include head.html %}
 
-  <div id="area">
-    <body onload="initElements()">
+  
+  <body onload="initElements()">
+    <div id="area">
+
       {% include navigation.html %}
     
       {% include homePanes.html %}
-      
-      {% include js.html %}
-  
-    </body>
-  </div>
 
-  {% include footer.html %}
-  
+      {% include js.html %}
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>

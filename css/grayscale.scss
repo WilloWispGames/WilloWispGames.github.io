@@ -242,11 +242,11 @@ a {
     height: auto;
     background-color: $white;
     //box-shadow: 0px 5px 5px $primary; //#888888;
-    border-top: none;
+    border-top: solid 1px $lightGrey;
     border-right: solid 1px $lightGrey;
     border-bottom: solid 1px $lightGrey;
     border-left: solid 1px $lightGrey;
-    overflow-y: scroll;
+
     @media(min-width:767px) {
         margin-top: 100px;
         margin-bottom: 135px;

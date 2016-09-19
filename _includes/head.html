@@ -20,6 +20,11 @@
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   
   <!-- Panes -->
+  {% if page.layout == "default" %}
+    <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
+  {% endif %}
+  
+  <!--
   {% if page.layout == "projects" %}
     <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
   {% endif %}
@@ -28,8 +33,9 @@
   {% endif %}
   {% if page.layout == "contact" %}
     <link href="{{site.baseurl}}/css/pane.css" rel="stylesheet">
-  {% endif %}  
-
+  {% endif %}
+  -->
+  
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">

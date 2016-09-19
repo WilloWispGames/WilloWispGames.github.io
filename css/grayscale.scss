@@ -339,10 +339,13 @@ ul.social-buttons li a {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     padding: 50px 0;
     text-align: center;
     p {
         margin: 0;
+        text-align: center;
     }
 }
 

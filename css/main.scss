@@ -2,7 +2,7 @@
 ---
 @import "variables";
 
-
+/*
 #indexbody {
   width: 100%;
   height: auto;
@@ -15,13 +15,7 @@
   background-size: cover;
   -o-background-size: cover;
   overflow: hidden;  
-}
-
-#area {
-  width: 100%;
-  height: auto;
-  padding-bottom: 125px;
-}
+}*/
 
 #pane-area {
   width: 100%;
@@ -35,17 +29,4 @@
   background-size: cover;
   -o-background-size: cover;
   overflow: hidden;  
-}
-
-#foot {
-  //clear: both;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  height: 125px;
-}
-
-#foot p {
-  text-align: center;
-  padding: 10px;
 }

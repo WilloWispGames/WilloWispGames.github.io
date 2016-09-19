@@ -12,15 +12,10 @@
 
 body {
     width: 100%;
-    height: auto;
+    height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $primary;
     background-color: $backdrop; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    //overflow: hidden;
 }
 
 html {

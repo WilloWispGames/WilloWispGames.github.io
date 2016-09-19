@@ -1,0 +1,25 @@
+<!-- Default Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  {% include head.html %}
+
+  <body onload="initPanes()" >
+
+    {% include navigation.html %}
+    
+    {% if page.section-type == "projects" %}
+      {% include projectPane.html %}
+    {% elseif page.section-type == "about" %}
+      {% include aboutPane.html %}
+    {% elseif page.section-type == "contact" %}
+      {% include contactPane.html %}
+    {% endif %}
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
+  </body>
+</html>

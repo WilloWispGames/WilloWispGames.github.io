@@ -8,19 +8,10 @@
   <body onload="initPanes()" >
 
     {% include navigation.html %}
-    
-    {% if page.section-type == "projects" %}
-      {% include projectPane.html %}
-    {% endif %}
-    {% if page.section-type == "about" %}
-      {% include aboutPane.html %}
-    {% endif %}  
-    {% if page.section-type == "contact" %}
-      {% include contactPane.html %}
-    {% endif %}
+
+    {% include projectPane.html %}
 
     {% include footer.html %}
-
     {% include js.html %}
 
   </body>

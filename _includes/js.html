@@ -15,6 +15,11 @@
 * Code licensed under the Apache License v2.0.
 * For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
 
+<!-- Panes -->
+{% if page.layout == "index" %}
+  <script src="{{site.baseurl}}/js/panes.js"></script>
+{% endif %}
+
 {% if page.layout == "projects" %}
   <script src="{{site.baseurl}}/js/panes.js"></script>
 {% endif %}

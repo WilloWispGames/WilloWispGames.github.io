@@ -56,7 +56,7 @@ icon-192p: "/img/web-app/wowLogo-192p.png"
 ########
 # Blog #
 ########
-post-preview-words: 96
+post-preview-words: 24
 
 paginate: 5
 

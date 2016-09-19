@@ -11,9 +11,11 @@
     
     {% if page.section-type == "projects" %}
       {% include projectPane.html %}
-    {% elseif page.section-type == "about" %}
+    {% endif %}
+    {% if page.section-type == "about" %}
       {% include aboutPane.html %}
-    {% elseif page.section-type == "contact" %}
+    {% endif %}  
+    {% if page.section-type == "contact" %}
       {% include contactPane.html %}
     {% endif %}
 

@@ -52,30 +52,6 @@
   padding-top: 100px;
   width: 65%;
   margin: 0% 1.33 2.66% 1.33%;
-  //float: left;
-  //overflow-y: auto;
-}
-
-.projectpane {
-  position: relative;
-  padding-top: 100px;
-  width: 65%;
-  margin: 0% 1.33 2.66% 1.33%;
-  //float: left;
-}
-.aboutpane {
-  position: relative;
-  padding-top: 100px;
-  width: 65%;
-  margin: 0% 1.33 2.66% 1.33%;
-  //float: left;
-}
-.contactpane {
-  position: relative;
-  padding-top: 100px;
-  width: 65%;
-  margin: 0% 1.33 2.66% 1.33%;
-  //float: left;
 }
 
 /*animation element*/
@@ -281,9 +257,6 @@
     margin: 0px 0px 0px 0px;
   }
   .pane,
-  .projectpane,
-  .aboutpane,
-  .contactpane,
   .animation-element,
   .animation-element:nth-of-type(3n-1),
   .animation-element:nth-of-type(3n-2),

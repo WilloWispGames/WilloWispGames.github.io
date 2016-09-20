@@ -51,7 +51,9 @@
 				
 				{{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
 				
-				<h4><small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small></h4>
+				<h4><small><center>
+					<a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a>
+				</center></small></h4>
 			</div>
 		</div>
 	</div>

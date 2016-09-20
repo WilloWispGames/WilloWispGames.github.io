@@ -1,0 +1,38 @@
+<!-- archivePane Start -->
+
+<center>
+<div class="area cf">
+
+{% assign post = site.posts.first %}
+
+	<div class="pane bounce-up cf">
+		<div class="subject default">
+		<div class="cat-color"></div>
+			<div class="icon"><i class="fa fa-pencil"></i></div>
+			<div class="header cf">
+				<h4 class="date"><i class="fa fa-calendar-o"></i><strong>September 2016</strong></h4>
+				<h4 class="cat"><i class="fa fa-folder-o"></i>
+					<small>
+    				<a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a>
+  				</small>
+				</h4>
+			</div>
+
+			<h3 class="title">Blog</h3>
+			<div class="content">
+			
+        {{ page.content | markdownify }}
+
+        <div>
+          {% for post in paginator.posts %}
+            {% include post-list.html%}
+          {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+        
+			</div>
+		</div>
+	</div>
+</div>
+</center>

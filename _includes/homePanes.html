@@ -1,32 +1,6 @@
 
 <div class="container cf">
-  <!-- Pane 1 
-	<div class="pane-right bounce-up cf">
-		<div class="subject default">
-			<div class="cat-color"></div>
-			<div class="icon"><i class="fa fa-gamepad"></i></div>
-			<div class="header cf">
-				<h4 class="date"><i class="fa fa-calendar-o"></i><strong>November 2015</strong></h4>
-				<h4 class="cat"><i class="fa fa-folder-o"></i>
-					<small>
-    				<a class="category" href="{{site.baseurl}}/projects/">
-      				Projects
-    				</a>
-  				</small>
-				</h4>
-			</div>			
-			<h3 class="title">Featured</h3>
-			<div class="content">
-				<p>In our upcoming title, players can look forward to exploring randomly generated Kingdoms in a fantasy themed world. Players will be able to gather resources used to craft equipment and build. A true sandbox title to its core, the actions of players will determine what is valuable and who is friend or foe. Every Kingdom will be different, so it will be left up to the players to decide: Who will rule in your Kingdom?</p>
-				<div class="p2">
-					<small>Many of the game's features are already playable. Follow our blog for updates!
-					</small>
-				</div>
-			</div>
-			<a class="enrole" href="{{site.baseurl}}/projects/">More Info</a> 
-		</div>
-	</div>
-	-->
+
   	<!-- Pane 2 -->
   
   	{% assign post = site.posts.first %}
@@ -35,14 +9,7 @@
 		<div class="subject default">
 			<div class="cat-color"></div>
 			<div class="icon"><i class="fa fa-pencil"></i></div>
-			<div class="header cf">
-				<h4 class="date"><i class="fa fa-calendar-o"></i><strong> {{ post.date | date_to_string }} </strong></h4>
-				<h4 class="cat"><i class="fa fa-folder-o"></i><small>
-					<a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
-						{{ post.category }}
-					</a></small>
-				</h4>
-			</div>			
+			<div class="header cf"><br></div>			
 			<h3 class="title">Latest Blog Post</h3>
 			<div class="content">
 				<h4>

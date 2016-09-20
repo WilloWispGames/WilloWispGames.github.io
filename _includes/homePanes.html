@@ -47,12 +47,11 @@
 			<div class="content">
 				<h4>
 				    <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-          			<small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>	
 				</h4>
 				
 				{{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
 				
-				<h4><a href="{{site.baseurl}}/blog/">Archive</a></h4>
+				<h4><small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small></h4>
 			</div>
 		</div>
 	</div>

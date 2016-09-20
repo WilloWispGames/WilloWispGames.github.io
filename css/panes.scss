@@ -51,7 +51,6 @@
   position: relative;
   padding-top: 100px;
   width: 65%;
-  margin: 0 50px 10px 50px; //margin: 0% 1.33 2.66% 1.33%;
 }
 
 .pane-right {
@@ -214,7 +213,8 @@
 .subject .content {
   color: $primary;
   text-align: left;
-  margin-bottom: 8px;
+  //margin-bottom: 8px;
+  margin: 0 25px 10px 25px; 
 }
 
 .subject.blog .content {

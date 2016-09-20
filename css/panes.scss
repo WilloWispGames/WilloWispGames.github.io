@@ -54,6 +54,15 @@
   margin: 0% 1.33 2.66% 1.33%;
 }
 
+.pane-right {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 31.5%;
+  margin: 0% 0% 2.75% 1.375%;
+  float: right; 
+}
+
 /*animation element*/
 .animation-element {
   position: relative;
@@ -64,7 +73,7 @@
     padding-bottom: 20px;
     //width: 65%;
     height: auto;  
-  width: 30%;
+  width: 31.5%;
   margin: 0% 1.33 2.66% 1.33%;
   float: left;
 }

@@ -1,0 +1,26 @@
+
+<!-- Archive Layout Start -->
+
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+
+        {{ page.content | markdownify }}
+
+        <div>
+          {% for post in paginator.posts %}
+            {% include post-list.html%}
+          {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+
+
+    {% include footer.html %}
+    {% include js.html %}
+
+  </body>
+</html>

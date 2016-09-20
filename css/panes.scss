@@ -196,41 +196,13 @@
 }
 
 .subject.default .cat-color,
-.subject.default .icon i {
+.subject.default .icon i,
+.subject.blog .cat-color,
+.subject.blog .icon i {
   background: #64b5f6;
 }
 
-.subject.design .cat-color,
-.subject.design .icon i {
-  background: #c0392b; 
-}
-
-.subject.development .cat-color,
-.subject.development .icon i {
-  background: #16a085; 
-}
-
-.subject.photography .cat-color,
-.subject.photography .icon i {
-  background: #2980b9;
-}
-
 /*hovering over subject*/
-.subject.default:hover .header i {
-  color: #64b5f6;
-}
-
-.subject.development:hover .header i {
-  color: #16a085;
-}
-
-.subject.design:hover .header i {
-  color: #c0392b;
-}
-
-.subject.photography:hover .header i {
-  color: #2980b9;
-}
 
 .subject .title {
   color: $primary;
@@ -242,6 +214,12 @@
 .subject .content {
   color: $primary;
   text-align: left;
+  margin-bottom: 8px;
+}
+
+.subject.blog .content {
+  color: $primary;
+  text-align: center;
   margin-bottom: 8px;
 }
 

@@ -6,7 +6,7 @@ category: development
 tags: [ 'devblog' ]
 ---
 
-Torque3D is a vision. It is an engine unlike any other in that is is driven by its 
+Torque3D is a vision. It is an engine unlike any other in that it is driven by its 
 community. Without community there is no Torque. Where many may view this as a weakness,
 it is indeed Torque's greatest strength. When you have tech that's been developed over 
 years of time by a dedicated community, chances are you're going to have a strong platform 

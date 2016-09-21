@@ -25,6 +25,14 @@
 	display: block;
 }
 
+.homepane h3
+{	
+	color: transparent;
+	margin: 1% 1% 1% 1%;
+	transition:color 0.5s; /* Animation time */
+	-webkit-transition:color 0.5s; /* For Safari */	
+}
+
 /* Initialize inner div defaults. */
 .homepane > .upper {
 	height: 50px;
@@ -46,4 +54,8 @@
 	margin-top: 2%; /* The top margin on hover.*/
 	background-color: #fff; 
 	border: solid 1px #bdbdbd;
+}
+
+.homepane.in-view h3 {
+	color: #000;
 }

@@ -67,7 +67,7 @@
   margin: 0% 1.5% 3.0% 0%;
 }
 
-.homepane.bounce-up:nth-of-type(even) {
+.homepane:nth-of-type(even) {
   width: 35%;
   margin: 0% 0% 3.0% 1.5%;
 }

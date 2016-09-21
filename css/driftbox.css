@@ -6,10 +6,13 @@
 
 /* Declare the default 'driftbox' class. */
 .driftbox {
-	height: 400px;
+	position: relative;
+	padding-top: 100px;
+	padding-bottom: 20px;
 	width: 65%;
 	margin: 5px 1% 5px 1%;
-	background-image: {{ site.background-img }};
+	float: left;
+	background-image: {{site.baseurl}}{{ site.background-img }};
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

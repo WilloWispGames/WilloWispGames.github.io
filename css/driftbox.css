@@ -12,7 +12,7 @@
 	width: 65%;
 	margin: 5px 1% 5px 1%;
 	float: left;
-	background-image: "{{site.baseurl}}{{ site.background-img }}";
+	background-image: "img/day-bg";
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

@@ -7,10 +7,10 @@
 /* Declare the default 'homepane' class. */
 .homepane {
 	position: relative;
-	padding-top: 100px;
+	padding-top: 5px;
 	padding-bottom: 20px;
 	width: 65%;
-	margin: 5px 1% 5px 1%;
+	margin: 100px 1% 5px 1%;
 	float: left;
 	background-image: url("/img/day-bg.png");
 	background-size: cover;

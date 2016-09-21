@@ -40,9 +40,8 @@
 	float: left;  
 	background-color: transparent; /*#274257;*/
 	border: hidden;
-	box-shadow: none;	
-	transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s, box-shadow 0.5s; /* Animation time */
-	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s, box-shadow 0.5s; /* For Safari */
+	transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s;; /* Animation time */
+	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s;; /* For Safari */
 }
 
 /* On hover, display any transitions. */
@@ -51,5 +50,4 @@
 	margin-top: 2%; /* The top margin on hover.*/
 	background-color: $white; 
 	border: solid 1px $lightGrey;
-	box-shadow: 0px 2px 6px rgba($black, 0.25);
 }

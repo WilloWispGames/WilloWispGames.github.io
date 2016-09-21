@@ -9,30 +9,28 @@
 		</center>
 	</div>
 	  	
-	  <!-- Pane 2 -->
+	<!-- Pane 2 -->
 	  
-	  {% assign post = site.posts.first %}
+	{% assign post = site.posts.first %}
 	  
-		<div class="pane bounce-up cf">
+	<div class="pane bounce-up cf">
 		
-			<div class="subject default">
-				<div class="cat-color"></div>
-				<div class="icon"><i class="fa fa-pencil"></i></div>
-				<div class="header cf"><br></div>			
-				<center><h3 class="title">Latest Blog Post</h3></center>
-				<div class="content">
-					<h4>
-					    <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
-					</h4>
+		<div class="subject default">
+			<div class="cat-color"></div>
+			<div class="icon"><i class="fa fa-pencil"></i></div>
+			<div class="header cf"><br></div>			
+			<center><h3 class="title">Latest Blog Post</h3></center>
+			<div class="content">
+				<h4>
+					<strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
+				</h4>
+
+				{{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
 					
-					{{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
-					
-					<h4><small><center>
-						<a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a>
-					</center></small></h4>
-				</div>
+				<h4><small><center>
+					<a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a>
+				</center></small></h4>
 			</div>
-			
 		</div>
 	</div>
 </div>	

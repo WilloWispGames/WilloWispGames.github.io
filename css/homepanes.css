@@ -35,7 +35,7 @@
 	margin-left: 1%;
 	float: left;  
 	background-color: transparent; /*#274257;*/
-	border: hidden;
+	border: solid 1px transparent;
 	transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s; /* Animation time */
 	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s, border 0.5s; /* For Safari */
 }

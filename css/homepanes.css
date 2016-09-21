@@ -12,6 +12,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	border: solid 1px #bdbdbd;
+	box-shadow: 0px 2px 6px rgba(#000, 0.25);	
 }
 
 /* Configure bg image defaults. */
@@ -21,8 +23,6 @@
 	max-height: 100%;
 	margin:auto;
 	display: block;
-	border: solid 1px #bdbdbd;
-	box-shadow: 0px 2px 6px rgba(#000, 0.25);	
 }
 
 /* Initialize inner div defaults. */

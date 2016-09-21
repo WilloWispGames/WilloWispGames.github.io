@@ -1,3 +1,7 @@
+---
+---
+@import "variables";
+
 
 /* Declare the default 'homepane' class. */
 .home-area {
@@ -12,6 +16,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	border: solid 1px $lightGrey;
+	box-shadow: 0px 2px 6px rgba($black, 0.25);
 }
 
 /* Configure bg image defaults. */
@@ -33,6 +39,8 @@
 	margin-left: 1%;
 	float: left;  
 	background-color: transparent; /*#274257;*/
+	border: none;
+	box-shadow: none;	
 	transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* Animation time */
 	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* For Safari */
 }
@@ -53,7 +61,9 @@
 .homepane.in-view .upper{
 	height: 60px; /* The button's height on hover. */
 	margin-top: 2%; /* The top margin on hover.*/
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: $white; 
+	border: solid 1px $lightGrey;
+	box-shadow: 0px 2px 6px rgba($black, 0.25);
 }
 .homepane.in-view .lower{
 	height: 150px; /* The button's height on hover. */

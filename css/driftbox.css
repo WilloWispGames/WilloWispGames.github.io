@@ -1,10 +1,15 @@
+---
+---
+
+@import "variables";
+
 
 /* Declare the default 'driftbox' class. */
 .driftbox {
 	height: 400px;
 	width: 65%;
 	margin: 5px 1% 5px 1%;
-	background-image: url("images/proj.png");
+	background-image: {{ site.background-img }};
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

@@ -4,8 +4,8 @@
 @import "variables";
 
 
-/* Declare the default 'driftbox' class. */
-.driftbox {
+/* Declare the default 'homepane' class. */
+.homepane {
 	padding-top: 100px;
 	padding-bottom: 20px;
 	width: 65%;
@@ -18,7 +18,7 @@
 }
 
 /* Configure bg image defaults. */
-.driftbox img
+.homepane img
 {
 	width: 100%;
 	max-height: 100%;
@@ -27,7 +27,7 @@
 }
 
 /* Initialize inner div defaults. */
-.driftbox > .upper {
+.homepane > .upper {
 	height: 50px;
 	width: 35%;
 	margin-top: 1%;
@@ -39,7 +39,7 @@
 	transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* Animation time */
 	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* For Safari */
 }
-.driftbox > .lower {
+.homepane > .lower {
 	height: 50px;
 	width: 45%;
 	margin-top: 345px;
@@ -53,12 +53,12 @@
 }
 
 /* On hover, display any transitions. */
-.driftbox:hover .upper{
+.homepane:hover .upper{
 	height: 60px; /* The button's height on hover. */
 	margin-top: 2%; /* The top margin on hover.*/
 	background-color: rgba(0, 0, 0, 0.65);
 }
-.driftbox:hover .lower{
+.homepane:hover .lower{
 	height: 150px; /* The button's height on hover. */
 	margin-top: 235px; /* The top margin on hover.*/
 	margin-bottom: 15px; /* The bottom margin on hover.*/

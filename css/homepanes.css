@@ -1,5 +1,9 @@
 
 /* Declare the default 'homepane' class. */
+.home-area {
+	padding-top: 100px;
+}
+
 .homepane {
 	height: 400px;
 	width: 65%;

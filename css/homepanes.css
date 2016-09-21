@@ -6,6 +6,7 @@
 
 /* Declare the default 'homepane' class. */
 .homepane {
+	position: relative;
 	padding-top: 100px;
 	padding-bottom: 20px;
 	width: 65%;

@@ -61,3 +61,13 @@
 	margin-bottom: 15px; /* The bottom margin on hover.*/
 	background-color: rgba(0, 0, 0, 0.65);
 }
+
+.homepane:nth-of-type(odd) {
+  width: 48.5%;
+  margin: 0% 1.5% 3.0% 0%;
+}
+
+.homepane.bounce-up:nth-of-type(even) {
+  width: 48.5%;
+  margin: 0% 0% 3.0% 1.5%;
+}

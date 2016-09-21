@@ -50,12 +50,12 @@
 }
 
 /* On hover, display any transitions. */
-.homepane:hover .upper{
+.homepane.in-view .upper{
 	height: 60px; /* The button's height on hover. */
 	margin-top: 2%; /* The top margin on hover.*/
 	background-color: rgba(0, 0, 0, 0.65);
 }
-.homepane:hover .lower{
+.homepane.in-view .lower{
 	height: 150px; /* The button's height on hover. */
 	margin-top: 235px; /* The top margin on hover.*/
 	margin-bottom: 15px; /* The bottom margin on hover.*/

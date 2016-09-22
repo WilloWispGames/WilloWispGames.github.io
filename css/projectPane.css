@@ -80,11 +80,4 @@
 
 .projpane.in-view h3 {
 	color: #fff;
-	transition: color 0.3s; /* Animation time */
-	-webkit-transition: color 0.3s; /* For Safari */
-	-moz-transition: color 0.3s;	
-}
-
-.projpane.inview:hover h3 {
-	color: $link-color;
 }

@@ -1,7 +1,7 @@
 
 /* Declare the default 'homepane' class. */
 .proj-area {
-	padding-top: 75px;
+	padding-top: 125px;
 	transition: padding-top 0.5s; /* Animation time */
 	-webkit-transition: padding-top 0.5s; /* For Safari */
 	-moz-transition: padding-top 0.5s;

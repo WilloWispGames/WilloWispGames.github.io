@@ -36,7 +36,8 @@
 	text-transform: uppercase;
 	font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 700;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 	transition: color 0.5s; /* Animation time */
 	-webkit-transition: color 0.5s; /* For Safari */
 	-moz-transition: color 0.5s;

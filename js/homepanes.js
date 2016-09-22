@@ -1,10 +1,10 @@
-var $projpanes = $('.projpane');
+var $projareas = $('.projarea');
 var $panes = $('.pane');
 
 function initHomePanes() {
-  $.each($projpanes, function() {
-    var $projpane = $(this);
-    $projpane.addClass('in-view');
+  $.each($projareas, function() {
+    var $projarea = $(this);
+    $projarea.addClass('in-view');
   });  
   $.each($panes, function() {
     var $pane = $(this);

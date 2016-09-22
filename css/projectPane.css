@@ -1,7 +1,10 @@
 
 /* Declare the default 'homepane' class. */
 .proj-area {
-	padding-top: 100px;
+	padding-top: 75px;
+	transition: padding-top 0.5s; /* Animation time */
+	-webkit-transition: padding-top 0.5s; /* For Safari */
+	-moz-transition: padding-top 0.5s;
 }
 
 .projpane {
@@ -29,8 +32,9 @@
 {	
 	color: transparent;
 	margin: 1% 1% 1% 1%;
-	transition:color 0.5s; /* Animation time */
-	-webkit-transition:color 0.5s; /* For Safari */	
+	transition: color 0.5s; /* Animation time */
+	-webkit-transition: color 0.5s; /* For Safari */
+	-moz-transition: color 0.5s;
 }
 
 /* Initialize inner div defaults. */
@@ -45,6 +49,10 @@
 	background-color: transparent; /*#274257;*/
 	transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* Animation time */
 	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* For Safari */
+}
+
+.projarea.in-view {
+	padding-top: 100px;
 }
 
 /* On hover, display any transitions. */

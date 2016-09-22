@@ -83,5 +83,13 @@
 }
 
 .proja {
-	color: #fff;
+    color: #fff;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: #fff;
+    }
 }

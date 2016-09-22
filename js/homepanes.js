@@ -1,5 +1,5 @@
-var $projareas = $('.projarea');
-var $homepanes = $('.homepane');
+var $projareas = $('.proj-area');
+var $projpanes = $('.projpane');
 var $panes = $('.pane');
 
 function initHomePanes() {

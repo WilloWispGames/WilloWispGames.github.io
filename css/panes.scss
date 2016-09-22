@@ -131,6 +131,17 @@
   box-shadow: 0px 2px 6px rgba($black, 0.25);
 }
 
+.subject .h3 {
+  color: $white;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.subject .h3:hover {
+  color: $link-color;
+}
+
 .subject:hover,
 .subject:active {
   //box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);

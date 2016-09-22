@@ -7,9 +7,9 @@ function initHomePanes() {
     var $projarea = $(this);
     $projarea.addClass('in-view');
   }); 
-  $.each($homepanes, function() {
-    var $homepane = $(this);
-    $homepane.addClass('in-view');
+  $.each($projpanes, function() {
+    var $projpane = $(this);
+    $projpane.addClass('in-view');
   });  
   $.each($panes, function() {
     var $pane = $(this);

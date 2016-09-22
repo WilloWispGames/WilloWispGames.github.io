@@ -51,7 +51,7 @@
 	-webkit-transition:height 0.5s, margin-top 0.5s, background-color 0.5s; /* For Safari */
 }
 
-.projarea.in-view {
+.proj-area.in-view {
 	padding-top: 100px;
 }
 

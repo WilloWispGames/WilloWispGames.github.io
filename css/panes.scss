@@ -203,6 +203,16 @@
 
 /*hovering over subject*/
 
+.subject .label {
+  color: $secondary;
+  -moz-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;  
+}
+.subject .label:hover {
+  color: $primary;
+}
+
 .subject .title {
   color: $primary;
   margin: 12px 0px;

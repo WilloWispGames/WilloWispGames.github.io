@@ -55,9 +55,9 @@
 	margin-left: 1%;
 	float: left;  
 	background-color: transparent; /*#274257;*/
-	transition: height 0.5s, margin-top 0.5s, background-color 0.5s; /* Animation time */
-	-webkit-transition: height 0.5s, margin-top 0.5s, background-color 0.5s; /* For Safari */
-	-moz-transition: height 0.5s, margin-top 0.5s, background-color 0.5s;
+	transition: height 0.5s, margin-top 0.5s; /*, background-color 0.5s; /* Animation time */
+	-webkit-transition: height 0.5s, margin-top 0.5s; /*, background-color 0.5s; /* For Safari */
+	-moz-transition: height 0.5s, margin-top 0.5s; /*, background-color 0.5s; */
 	transition-delay: 0.5s;
 	-webkit-transition-delay: 0.5s;
 	-moz-transition-delay: 0.5s;
@@ -71,7 +71,7 @@
 .projpane.in-view .upper{
 	height: 60px; /* The button's height on hover. */
 	margin-top: 2%; /* The top margin on hover.*/
-	background-color: rgba(0, 0, 0, 0.65); 
+	/* background-color: rgba(0, 0, 0, 0.65); */
 }
 
 .projpane.in-view h3 {

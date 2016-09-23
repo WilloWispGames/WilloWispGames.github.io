@@ -66,6 +66,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    word-wrap: break-word;
     @media(min-width:768px) {
         margin: 0 0 35px;
         font-size: 20px;

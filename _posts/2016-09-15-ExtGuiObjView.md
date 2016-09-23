@@ -14,8 +14,8 @@ This extension of the GuiObjectView's source code began April 5th, 2016. During 
 <br>
 <br>
 <h2>Problems? What Problems?</h2>
-• One of the first problems with the GuiObjectView was that it only supported a single mesh for the displayed model. This quickly became a problem when attempting to hide or show particular sub-meshes for our character models.<br>
-• Another thing that cropped up immediately was the realization that the displayed mesh also supported a single material. Skinning was supported, but not for sub-meshes(i.e. seperate materials for each sub-mesh within the model).<br>
+• One of the first problems with the GuiObjectView was that it only supported a single mesh for the displayed model. This quickly became a problem when attempting to hide or show particular sub-meshes for our character models.<br><br>
+• Another thing that cropped up immediately was the realization that the displayed mesh also supported a single material. Skinning was supported, but not for sub-meshes(i.e. seperate materials for each sub-mesh within the model).<br><br>
 • The default camera would default to a position relative to the root of the model. Adjustments would be required to have the camera auto-adjust its positioning based on the size of the displayed model.
 <br>
 <br>

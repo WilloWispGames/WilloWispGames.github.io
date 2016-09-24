@@ -47,9 +47,14 @@ The extension to the GuiObjectView's camera was born out of necessity to positio
 {% highlight cpp %}
 DefineEngineMethod(GuiObjectView, getCamPos, Point3F, (), ,
 	"@brief Get the camera's position.\n\n")   
-EngineMethod setCamPos( Point3F xyz) 
-EngineMethod getOrbitPos()
-EngineMethod getEyeZ() 
+DefineEngineMethod(GuiObjectView, setCamPos, void, (Point3F xyz), ,
+	"@brief Set the camera's position.\n\n") 
+DefineEngineMethod(GuiObjectView, getOrbitPos, Point3F, (), ,
+	"@brief Get the camera's orbit position.\n\n")
+DefineEngineMethod(GuiObjectView, setOrbitPos, void, (Point3F xyz), ,
+	"@brief Set the camera's orbit position.\n\n")	
+DefineEngineMethod(GuiObjectView, getEyeZ, F32, (), ,
+	"@brief Get the z position from the eye node.\n\n")
 {% endhighlight %}
 
 If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the source code. It is admittedly a little rough around the edges but it gets the job done, resetting the camera to an optimal range when called from script. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will reposition itself automatically.

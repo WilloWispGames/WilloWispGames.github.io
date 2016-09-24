@@ -24,14 +24,14 @@ This extension of the GuiObjectView's source code began April 5th, 2016. During 
 We wanted the GuiObjectView control to support the hiding/showing of sub-meshes within a model individually. The first step was to add "core/bitVector.h" to the includes. Including this class allowed for the creation of the mHiddenMeshes vector. Additionally, large amounts of code could be borrowed from other classes that already supported multiple sub-meshes for rendered models. The most notable about this update is that it elegantly repurposes the existing 'skin' field so the data stored can be a tab-delimited vector of strings. Several internal functions were added to index and update the hidden status for each sub-mesh in an object. A couple of these were extended into EngineMethod format:
 
 {% highlight cpp %}
-DefineEngineMethod(GuiObjectView, setAllMeshesHidden, void, (bool hidden), ,
+DefineEngineMethod(GuiObjectView, setAllMeshesHidden, void, (bool hide), ,
 	"@brief Set the hidden state on all the shape meshes.\n\n"
 
 	"This allows you to hide all meshes in the shape, for example, and then only "
 	"enable a few.\n"
 
 	"@param hide new hidden state for all meshes\n\n")
-DefineEngineMethod(GuiObjectView, setMeshHidden, void, (const char* name, bool hidden), ,
+DefineEngineMethod(GuiObjectView, setMeshHidden, void, (const char* name, bool hide), ,
 	"@brief Set the hidden state on the named shape mesh.\n\n"
 
 	"@param name name of the mesh to hide/show\n"

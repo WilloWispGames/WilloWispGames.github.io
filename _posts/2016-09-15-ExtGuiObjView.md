@@ -51,7 +51,7 @@ EngineMethod getOrbitPos()
 EngineMethod getEyeZ() 
 {% endhighlight %}
 
-If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the source code. It is admittedly a little rough around the edges but it gets the job done, resetting the camera to an optimal range when called from script. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a larger character the camera will reposition itself automatically.
+If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the source code. It is admittedly a little rough around the edges but it gets the job done, resetting the camera to an optimal range when called from script. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will reposition itself automatically.
 <br>
 <br>
 <h2>Downloads</h2>

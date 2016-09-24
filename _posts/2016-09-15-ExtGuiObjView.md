@@ -74,7 +74,7 @@ DefineEngineMethod(GuiObjectView, getTargetName, const char*, (S32 index), (0),
 <br>
 <br>
 <h2>Extended Camera</h2>
-The extension to the GuiObjectView's camera was born out of necessity to position the camera more accurately. The current implementation offsets the camera based off of the model's nodes. If the control is flagged to 'useNodes' the model will be required to have 'base' and 'eye' nodes. Conveniently, in many(if not most) cases, these nodes should already have been added when the nodes for the model were being set up. If the model meets the requirements and the control has 'useNodes' enabled the camera is able to be controlled using the new EngineMethod script functions:
+The extension to the GuiObjectView's camera was born out of necessity to position the camera more accurately. The current implementation offsets the camera based off of the model's nodes. If the control is flagged to 'useNodes' the model will be required to have 'base', 'start01, and 'eye' nodes. Conveniently, in many(if not most) cases, these nodes should already have been added when the nodes for the model were being set up. If the model meets the requirements and the control has 'useNodes' enabled the camera is able to be controlled using the new EngineMethod script functions:
 
 {% highlight cpp %}
 DefineEngineMethod(GuiObjectView, getCamPos, Point3F, (), ,

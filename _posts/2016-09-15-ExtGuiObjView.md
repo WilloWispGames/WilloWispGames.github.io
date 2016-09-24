@@ -34,10 +34,31 @@ This update was relatively straight-forward once I discovered how other classes 
 Once multiple meshes were rendering properly within the GuiObjectView control it was time to implement proper skinning so a model with multiple materials could display all the materials. One example would be a model with a highRes head material and a second lowRes material for the rest of the mesh. Once again, this wasn't too difficult to implement once existing functionality for other classes was reverse engineered for our purposes here. "sim/netStringTable.h" was added to the includes so that the rendered model could keep track of a list of materials, rather than just one. Again, several internal support functions were added so that skin names could be properly indexed, retrieved, and updated. The renderWorld() function had to be updated so the RenderPassManager assigned a 'shared' transform. At the end of the day, this resulted in some additional EngineMethod functions for use in script:
 
 {% highlight cpp %}
-EngineMethod getSkinName()  
-EngineMethod setSkinName( name ) 
-EngineMethod getTargetCount()
-EngineMethod getTargetName( id )
+DefineEngineMethod(GuiObjectView, getSkinName, const char*, (), ,
+	"@brief Get the name of the skin applied to this shape.\n\n"
+	"@return the name of the skin\n\n"
+
+	"@see skin\n"
+	"@see setSkinName()\n")  
+DefineEngineMethod(GuiObjectView, setSkinName, void, (const char* skinName), ,
+	"@brief Sets the skin to use on the model being displayed.\n\n"
+	"@param skinName Name of the skin to use.\n"
+	"@tsexample\n"
+	"// Define the skin we want to apply to the main model in the control\n"
+	"%skinName = \"disco_gideon\";\n\n"
+	"// Inform the GuiObjectView control to update the skin the to defined skin\n"
+	"%thisGuiObjectView.setSkin(%skinName);\n"
+	"@endtsexample\n\n"
+	"@see GuiControl") 
+DefineEngineMethod(GuiObjectView, getTargetCount, S32, (), ,
+	"Get the number of materials in the shape.\n"
+	"@return the number of materials in the shape.\n"
+	"@see getTargetName()\n")
+DefineEngineMethod(GuiObjectView, getTargetName, const char*, (S32 index), (0),
+	"Get the name of the indexed material.\n"
+	"@param index index of the material to get (valid range is 0 - getTargetCount()-1).\n"
+	"@return the name of the indexed material.\n"
+	"@see getTargetCount()\n")
 {% endhighlight %}
 <br>
 <br>

@@ -69,3 +69,4 @@ To install:<br>
 <h2>Additional Updates</h2>
 At the time of writing, a further extended version 1.1 exists but hasn't been packaged for sharing. The updated version supports animation blends for the rendered model and provides the backbone for further expansions relating to character customization options. The update is significant enough to stand alone as a 'next iteration' and, due to the project-specific nature of the expansion, we have 2 versions of the extended GuiObjectView from which to choose! Stay tuned for more information about version 1.1.
 
+• As time allows we will be expanding our site to include more in-depth tutorials, complete with media and script examples.

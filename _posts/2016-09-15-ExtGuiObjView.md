@@ -17,6 +17,7 @@ This extension of the GuiObjectView's source code began April 5th, 2016. During 
 • One of the first problems with the GuiObjectView was that it only supported a single mesh for the displayed model. This quickly became a problem when attempting to hide or show particular sub-meshes for our character models.<br><br>
 • Another thing that cropped up immediately was the realization that the displayed mesh also supported a single material. Skinning was supported, but not for sub-meshes(i.e. seperate materials for each sub-mesh within the model).<br><br>
 • The default camera would default to a position relative to the center of the model. Adjustments would be required to have the camera auto-adjust its positioning based on the size of the displayed model.
+• The default camera would allow for zooming 'inside' the model, as well as awkward 2 axis rotations. A 'closest' value would need to be added to keep the camera from going into the model, and a constraint put on rotation.
 <br>
 <br>
 <h2>Sub-mesh Support</h2>
@@ -91,7 +92,7 @@ DefineEngineMethod(GuiObjectView, setUseNodes, void, (bool use), ,
 	"Uses the shape's start01 node to set the camera position.\n")	
 {% endhighlight %}
 
-If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the source code. It is admittedly a little rough around the edges but it gets the job done, resetting the camera to an optimal range when called from script. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will reposition itself automatically.
+If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the provided GuiObjectView script below. It will automatically resetting the camera to an optimal range when the control wakes or the model is changed. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will automatically reposition itself.
 <br>
 <br>
 <h2>Downloads</h2>
@@ -103,7 +104,7 @@ To install:<br>
 <b>1 -</b> Backup your existing <font color="gray">"source\T3D\guiObjectView.h"</font> and <font color="gray">"source\T3D\guiObjectView.cpp"</font> files.<br>
 <b>2 -</b> Replace <font color="gray">"source\T3D\guiObjectView.h"</font> and <font color="gray">"source\T3D\guiObjectView.cpp"</font> with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>
-<b>4 -</b> Create a script file for the GuiObjectView control and call the new script functions as needed. <br>
+<b>4 -</b> Example script files have been provided, which can be initialized with the other .gui scripts. The example scripts will cause any GuiObjectView control to automatically reset its camera's position onWake() or when the displayed model is changed. It is recommended that these scripts be included when first using the resource, to promote a better familiarity with the resource and how to use it from script.<br>
 <br>
 <br>
 <h2>Additional Updates</h2>

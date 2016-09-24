@@ -23,8 +23,18 @@ This extension of the GuiObjectView's source code began April 5th, 2016. During 
 We wanted the GuiObjectView control to support the hiding/showing of sub-meshes within a model individually. The first step was to add "core/bitVector.h" to the includes. Including this class allowed for the creation of the mHiddenMeshes vector. Additionally, large amounts of code could be borrowed from other classes that already supported multiple sub-meshes for rendered models. The most notable about this update is that it elegantly repurposes the existing 'skin' field so the data stored can be a tab-delimited vector of strings. Several internal functions were added to index and update the hidden status for each sub-mesh in an object. A couple of these were extended into EngineMethod format:
 
 {% highlight cpp %}
-EngineMethod setAllMeshesHidden( bool ) 
-EngineMethod setMeshHidden( name, bool ) 
+DefineEngineMethod(GuiObjectView, setAllMeshesHidden, void, (bool hidden), ,
+	"@brief Set the hidden state on all the shape meshes.\n\n"
+
+	"This allows you to hide all meshes in the shape, for example, and then only "
+	"enable a few.\n"
+
+	"@param hide new hidden state for all meshes\n\n")
+DefineEngineMethod(GuiObjectView, setMeshHidden, void, (const char* name, bool hidden), ,
+	"@brief Set the hidden state on the named shape mesh.\n\n"
+
+	"@param name name of the mesh to hide/show\n"
+	"@param hide new hidden state for the mesh\n\n")
 {% endhighlight %}
 
 This update was relatively straight-forward once I discovered how other classes were keeping track of sub-meshes. This is a shining example of how a significant feature update can be achieved with minimal code updates. The bulk of this work was already done in the Torque source code, just never was extended to be used by the GuiObjectView class.

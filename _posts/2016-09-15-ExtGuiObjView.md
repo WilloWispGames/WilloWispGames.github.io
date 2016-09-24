@@ -64,9 +64,10 @@ To install:<br>
 <b>2 -</b> Replace the <font color="gray">"source\T3D\guiObjectView.h"</font> and <font color="gray">"source\T3D\guiObjectView.cpp"</font> with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>
 <b>4 -</b> Create a script file for the GuiObjectView control and call the new script functions as needed. <br>
+• As time allows we will be expanding our site to include more in-depth tutorials, complete with media and script examples.
 <br>
 <br>
 <h2>Additional Updates</h2>
 At the time of writing, a further extended version 1.1 exists but hasn't been packaged for sharing. The updated version supports animation blends for the rendered model and provides the backbone for further expansions relating to character customization options. The update is significant enough to stand alone as a 'next iteration' and, due to the project-specific nature of the expansion, we have 2 versions of the extended GuiObjectView from which to choose! Stay tuned for more information about version 1.1.
 
-• As time allows we will be expanding our site to include more in-depth tutorials, complete with media and script examples.
+

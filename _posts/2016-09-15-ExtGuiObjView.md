@@ -37,7 +37,7 @@ DefineEngineMethod(GuiObjectView, setMeshHidden, void, (const char* name, bool h
 	"@param name name of the mesh to hide/show\n"
 	"@param hide new hidden state for the mesh\n\n")
 {% endhighlight %}
-
+<br>
 This update was relatively straight-forward once I discovered how other classes were keeping track of sub-meshes. This is a shining example of how a significant feature update can be achieved with minimal code updates. The bulk of this work was already done in the Torque source code, just never was extended to be used by the GuiObjectView class.
 <br>
 <br>
@@ -91,7 +91,7 @@ DefineEngineMethod(GuiObjectView, setUseNodes, void, (bool use), ,
 	"Allow the GuiObjectView to use nodes for camera placement.\n"
 	"Uses the shape's start01 node to set the camera position.\n")	
 {% endhighlight %}
-
+<br>
 If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the provided GuiObjectView script below. It will automatically resetting the camera to an optimal range when the control wakes or the model is changed. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will automatically reposition itself.
 <br>
 <br>

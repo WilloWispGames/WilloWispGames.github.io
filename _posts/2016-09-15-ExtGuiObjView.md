@@ -101,7 +101,7 @@ This is version 1.0 of the extended GuiObjectView class. This version implements
 <br>
 <br>
 <h2>Installation</h2>
-<b>Source Code:</b><br>
+<h3>Source Code:</h3>
 <b>1 -</b> Backup your existing <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> files.<br>
 <b>2 -</b> Replace <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>

@@ -20,5 +20,4 @@ Core design based off of [{ Personal } Jekyll theme](https://github.com/PanosSak
 * [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
 * Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 
-Syntax highlighting uses the [highlight.js](https://highlightjs.org) library. highlight.js is copyright &copy; 2006 Ivan Sagalaev. Custom
-highlighting for Torque by Jesse Allen(cpp language extensions).
+Syntax highlighting uses the [highlight.js](https://highlightjs.org) library. highlight.js is copyright &copy; 2006 Ivan Sagalaev. Custom highlighting(cpp language extensions) for Torque by Jesse Allen.

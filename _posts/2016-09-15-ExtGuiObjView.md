@@ -74,7 +74,7 @@ DefineEngineMethod(GuiObjectView, getTargetName, const char*, (S32 index), (0),
 <br>
 <br>
 <h2>Extended Camera</h2>
-The extension to the GuiObjectView's camera was born out of necessity to position the camera more accurately. The current implementation offsets the camera based off of the model's nodes. If the control is flagged to 'useNodes' the model will be required to have 'base', 'start01', and 'eye' nodes. Conveniently, in many(if not most) cases, these nodes should already have been added when the nodes for the model were being set up. If the model meets the requirements and the control has 'useNodes' enabled the camera is able to be controlled using the new EngineMethod script functions:
+The extension to the GuiObjectView's camera was born out of necessity to position the camera more accurately. The current implementation offsets the camera based off of the model's nodes. If the control is flagged to <filepath>'useNodes'</filepath> the model will be required to have <filepath>'base'<filepath>, <filepath>'start01'<filepath>, and <filepath>'eye'<filepath> nodes. Conveniently, in many(if not most) cases, these nodes should already have been added when the nodes for the model were being set up. If the model meets the requirements and the control has <filepath>'useNodes'<filepath> enabled the camera is able to be controlled using the new EngineMethod script functions:
 
 {% highlight cpp %}
 DefineEngineMethod(GuiObjectView, getCamPos, Point3F, (), ,
@@ -102,7 +102,7 @@ This is version 1.0 of the extended GuiObjectView class. This version implements
 <h2>Installation</h2>
 To install:<br>
 <b>1 -</b> Backup your existing <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> files.<br>
-<b>2 -</b> Replace <font color="gray">"source\T3D\guiObjectView.h"</font> and <font color="gray">"source\T3D\guiObjectView.cpp"</font> with the updated files provided.<br>
+<b>2 -</b> Replace <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>
 <b>4 -</b> Example script files have been provided, which can be initialized with the other .gui scripts. The example scripts will cause any GuiObjectView control to automatically reset its camera's position onWake() or when the displayed model is changed. It is recommended that these scripts be included when first using the resource, to promote a better understanding of the resource and how to use it from script.<br>
 <br>

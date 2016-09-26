@@ -34,10 +34,7 @@
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}
-            {% if post.category == "development" %}
-              {% include comments.html %}
-            {% endif %}
-            {% if post.category == "tech" %}
+            {% if page.category != "announcements" %}
               {% include comments.html %}
             {% endif %}          
           {% endif %}

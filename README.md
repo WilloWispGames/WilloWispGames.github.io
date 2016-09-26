@@ -9,7 +9,6 @@
   * Archive page
   * Syntax highlighting
   * Emojis
-  * Gesture navigation in archive and post pages by swiping
   * #tags
   * Disqus comments
   * Bootstrap share buttons

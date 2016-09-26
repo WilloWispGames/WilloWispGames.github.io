@@ -33,7 +33,9 @@
 
           {% include share.html %}
 
-          {% if jekyll.environment == "production" %}
+          <!-- {% if jekyll.environment == "production" %} -->
+          
+          {% if post.category != "announcements" %}
             {% include comments.html %}
           {% endif %}
 

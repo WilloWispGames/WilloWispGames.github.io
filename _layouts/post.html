@@ -33,10 +33,13 @@
 
           {% include share.html %}
 
-          <!-- {% if jekyll.environment == "production" %} -->
-          
-          {% if post.category != "announcements" %}
-            {% include comments.html %}
+          {% if jekyll.environment == "production" %}
+            {% if post.category == "development" %}
+              {% include comments.html %}
+            {% endif %}
+            {% if post.category == "tech" %}
+              {% include comments.html %}
+            {% endif %}          
           {% endif %}
 
         </div>

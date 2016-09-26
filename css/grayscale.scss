@@ -109,6 +109,11 @@ a {
     }
 }
 
+filepath {
+    font-family: "Consolas";
+    color: $secondary;   
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid $black; //rgba($lightGrey, 0.7); 

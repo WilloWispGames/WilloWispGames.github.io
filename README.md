@@ -20,3 +20,5 @@ Core design based off of [{ Personal } Jekyll theme](https://github.com/PanosSak
 * Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
 
 Syntax highlighting uses the [highlight.js](https://highlightjs.org) library. highlight.js is copyright &copy; 2006 Ivan Sagalaev. Custom highlighting(cpp language extensions) for Torque by Jesse Allen.
+
+Site design copyright &copy; 2016 Jesse Allen

@@ -44,10 +44,12 @@
 				</h4>
 
 				{{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
-					
+				
+				{% if post.category != "announcements" %}
 				<h4><small><center>
 					<a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a>
 				</center></small></h4>
+				{% endif %}
 			</div>
 		</div>
 	</div>

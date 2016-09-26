@@ -13,5 +13,7 @@
     <strong>{{ post.title }}</strong>
   </a>
   <br class="visible-xs-block">
-  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+  {% if post.category != "announcements" %}
+    <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+  {% endif %}
 </h4>

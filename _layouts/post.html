@@ -20,8 +20,10 @@
               . category:
               <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
                 {{ page.category }}
-              </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              </a>
+              {% if page.category != "announcements" %}
+              .<a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              {% endif %}
               <br />
               {% for tag in page.tags %}
                 <a class="tag" href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>

@@ -10,7 +10,7 @@ tags: [ 'tech' ]
 <br>
 For our current project, I found Torque's existing GuiObjectView class was going to need to be modified to meet the demands of a quality character creation GUI. The class achieves what it sets out to do: it renders a 3D model in a GUI control. However, that's about all it does by default, and rendering of more complex models isn't supported. It was decided the GuiObjectView class was in need of an update and so began the task of extending the class's list of features! 
 
-This extension of the GuiObjectView's source code began April 5th, 2016. During that time, any official updates that made it to release were included. The class was updated from time to time and additional extensions implemented as needed. Here I'll outline some of the changes that took place in order to extend the functionality of the GuiObjectView class:
+This extension of the GuiObjectView's source code began April 5th, 2016. Following that time, any official updates that made it to Torque3D's release branch were included. The class was updated from time to time and additional extensions implemented as needed. Here I'll outline some of the changes that took place in order to extend the functionality of the GuiObjectView class:
 <br>
 <br>
 <h2>Problems? What Problems?</h2>
@@ -112,4 +112,4 @@ An example script file has been provided, which can be initialized with the othe
 <h2>Additional Updates</h2>
 At the time of writing, a further extended version 1.1 exists but hasn't been packaged for sharing. The updated version supports animation blends for the rendered model and provides the backbone for further expansions relating to character customization options. The update is significant enough to stand alone as a 'next iteration' and, due to the project-specific nature of the expansion, we have 2 versions of the extended GuiObjectView from which to choose! Stay tuned for more information about version 1.1.
 
-
+Please leave any feedback about the resource in the comments section below! 

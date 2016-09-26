@@ -111,7 +111,8 @@ a {
 
 filepath {
     font-family: "Consolas";
-    color: $secondary;   
+    color: $secondary;
+    word-wrap: break-word;
 }
 
 .navbar-custom {

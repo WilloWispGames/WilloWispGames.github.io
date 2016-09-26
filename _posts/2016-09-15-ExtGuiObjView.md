@@ -92,7 +92,7 @@ DefineEngineMethod(GuiObjectView, setUseNodes, void, (bool use), ,
 	"Uses the shape's start01 node to set the camera position.\n")	
 {% endhighlight %}
 <br>
-If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the provided GuiObjectView script below. It will automatically resetting the camera to an optimal range when the control wakes or the model is changed. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will automatically reposition itself.
+If handled properly, these functions can allow the control's camera to be animated from script. Also a default drifting operation is implemented in the provided GuiObjectView script below. It will automatically reset the camera to an optimal range when the control wakes or the model is changed. This allows models to change within the GuiObjectView dynamically, so if the client is viewing a short character and changes the model being viewed to a taller character the camera will automatically reposition itself.
 <br>
 <br>
 <h2>Downloads</h2>

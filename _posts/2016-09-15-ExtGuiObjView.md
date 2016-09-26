@@ -100,11 +100,13 @@ This is version 1.0 of the extended GuiObjectView class. This version implements
 <br>
 <br>
 <h2>Installation</h2>
-To install:<br>
+Source Code:<br>
 <b>1 -</b> Backup your existing <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> files.<br>
 <b>2 -</b> Replace <filepath>"source\T3D\guiObjectView.h"</filepath> and <filepath>"source\T3D\guiObjectView.cpp"</filepath> with the updated files provided.<br>
 <b>3 -</b> Recompile. A successful update of the GuiObjectView class will allow the script functions to be used.<br>
-<b>4 -</b> Example script files have been provided, which can be initialized with the other .gui scripts. The example scripts will cause any GuiObjectView control to automatically reset its camera's position onWake() or when the displayed model is changed. It is recommended that these scripts be included when first using the resource, to promote a better understanding of the resource and how to use it from script.<br>
+<br>
+Script:
+An example script file has been provided, which can be initialized with the other .gui scripts in <filepath>"scripts\client\init.cs"</filepath>(As of T3D 3.9, when 4.0 hits expect filepaths for scripts to change). The example scripts will cause any GuiObjectView control to automatically reset its camera's position when onWake() is called or when the displayed model is changed. It is recommended that this script be included when first using the resource, to promote a better understanding of the resource and how to use it from script.<br>
 <br>
 <br>
 <h2>Additional Updates</h2>

@@ -6,17 +6,12 @@ category: development
 tags: [ 'devblog' ]
 ---
 
+
 Torque3D is a vision. It is an engine unlike any other in that it is driven by its 
 community. Without community there is no Torque. Where many may view this as a weakness,
 it is indeed Torque's greatest strength. When you have tech that's been developed over 
 years of time by a dedicated community, chances are you're going to have a strong platform 
 from which to build.
-
-The best part? It's all open source, so regardless of what may or may not be valid 
-for a project all of the code can be updated, edited, replaced, or removed altogether 
-if need be. The engine is also on the cusp of supporting more modern rendering 
-capabilities and an entity/component system. With a polish over file structure, 
-extensions, and modules to boot, Torque continues to improve at a steady pace. 
 
 It's no secret that Torque's community has been active over the years. Given time and 
 dedication, one can sniff out sample scripts or potential code to tackle most of the 
@@ -25,15 +20,33 @@ the Torque3D engine and community was launched at [torque3d.org](http://torque3d
 The site is actively updated and maintained, where developers can find all the latest 
 Torque development news or join discussions in the community forums.
 
+<h3>Open Source</h3>
 Implementing common functionality that most users expect from modern games can take a 
-bit of work, although any gameplay worth developing should take a bit of work. The 
-difference is there is a well thought out, tried and true solution already framed up 
-with Torque, ready to be built upon. It's a great boon to the development process not 
-to have to code up a base GUI for graphics options or controls, for example. Not to 
-overlook the extremely nice built in networking support embedded into Torque's source. 
-It's a marvelous bit of tech to be quite honest, passing bits efficiently if used 
-correctly and offering a secure server/client architecture. 
+bit of work, although any gameplay worth developing should take a bit of work. When 
+using Torque there is a well thought out, tried and true solution already framed up 
+and ready to be built upon. The engine's source code includes a ton of elegant solutions
+for many of the problems that crop up when developing games. There are classes for just 
+about everything, ranging from virtual ArrayObjects for storing data to fully-fledged 
+FlyingVehicles. It's a great boon to the development process to have so many classes 
+available right from the start of a new project. 
 
+The best part? It's all open source, so regardless of what may or may not be valid 
+for a project all of the code can be updated, edited, replaced, or removed altogether 
+if need be. The engine is also on the cusp of supporting more modern rendering 
+capabilities and an entity/component system. With a polish over file structure, 
+extensions, and modules to boot, Torque continues to improve at a steady pace. 
+
+<h3>Networking</h3>
+On the subject of features, let's not overlook Torque's extremely nice built in networking 
+support. It's a marvelous bit of tech to be quite honest. When used properly, the netcode 
+can pass data very efficiently. The networking code includes classes to store string data 
+and later reference those strings by index. Pretty much any data can be enumerated in some 
+way before being sent across the wire. Furthermore, those updates can be configured by the
+developer be delivered only to specific clients as necessary. Now layer on top of this 
+Torque's datablock system and right out the gate the engine provides a secure client/server 
+architecture.
+
+<h3>Choosing an Engine</h3>
 So why isn't Torque considered the best of the best by the masses? Plain and simple, 
 Torque is not user friendly right out the gate. A new user with no experience or 
 close to no experience with the development process will find Torque very difficult 
@@ -63,6 +76,7 @@ doomed to having a cookie-cutter or generic type of feel. More importantly, if a
 developer didn't actually develop anything, debugging problems that arise can be a 
 huge can of worms if the project actually reaches a stage where that is important.
 
+<h3>Invest in Yourself</h3>
 So what's to gain from it all? Why work so diligently past Torque's initial learning 
 curve? Where is the pile of gold at the end of the rainbow? It is you. It is the sum 
 of your experience, your drive and determination, your perseverance, your personal goals 

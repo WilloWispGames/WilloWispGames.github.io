@@ -103,3 +103,5 @@ There comes a time when you grasp what Torque is really offering you as a develo
 and it's like reaching the summit after a long hike. You can look back over everything 
 you have just endured and experienced and truly be proud. Not only of what you have 
 achieved, but of yourself for what you have become. 
+
+Torque3D is Copyright &copy; 2012 GarageGames, LLC

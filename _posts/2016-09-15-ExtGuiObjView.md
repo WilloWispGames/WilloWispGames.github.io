@@ -97,7 +97,7 @@ If handled properly, these functions can allow the control's camera to be animat
 <br>
 <h2>Downloads</h2>
 This is version 1.0 of the extended GuiObjectView class. This version implements sub-mesh visibility, sub-mesh materials, and extended camera support.<br>
-<i>To improve the quality of this resource, we are currently writing custom scripts and packaging additional content to include with this download. We appreciate your patience as we work to improve this resource - this download will be available shortly.</i>
+[Extended GuiObjectView v1.0](https://github.com/Will-of-the-Wisp/Resources/tree/Extended-GuiObjectView)
 <br>
 <br>
 <h2>Installation</h2>

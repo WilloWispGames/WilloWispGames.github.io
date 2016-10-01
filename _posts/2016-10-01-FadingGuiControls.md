@@ -12,7 +12,9 @@ Subtle fading effects go a long way in improving the aesthetics of a gui and we 
 <br>
 <br>
 To alleviate this, it was decided that some research into implementing a <b>C++</b> solution was in order. I found this resource from 2005 by Jeff "Ddraig Goch" Parry:<br> 
+<br>
 [Fading Transparent Bitmap Control](https://www.garagegames.com/community/resources/view/7220)<br>
+<br>
 Although this resource works, we needed support for some other types of gui controls to fade in/out as well. Also any visible child controls would not fade in/out with the parent control. This would lead to things like a background image disappearing but the text inside still being there.<br>
 <br>
 The timing/core fading implementation was good, so we kept that aspect of the resource intact. The <b>wakeTime</b>,<b>fadeinTime</b>, and <b>fadeoutTime</b> fields and usage were left as they were. Just about everything else was replaced. Functions were implemented that internally update the states of the controls and support for child controls was added. 

@@ -68,11 +68,12 @@ The <b>mode</b> field can be set to a value from 0 to 2( 0 = idle, 1 = fadingIn,
 The <b>fadeInOnWake</b> field is a bool value of whether or not the control should fade in when the control's <b>onWake()</b> is called.<br>
 <br>
 When used together, these fields can cater to quite a few different scenarios. By default, the controls behave like the gui control from which they are inherited. i.e. The guiFadingBitmapCtrl acts just like the guiBitmapCtrl unless it is told to do otherwise. The most common use of the fading controls is to have the control fade in automatically, as soon as it is added to the canvas. For this behavior the fields could be set as follows:<br>
-<b>alpha = 0;</b> <i>// Transparent to start.</i><br>
-<b>fadeInOnWake = 1;</b> <i>// Anytime the control wakes, call its fadeIn() function.<i><br>
+<br>
+<b>alpha = 0;</b> <filepath>// Transparent to start.</filepath><br>
+<b>fadeInOnWake = 1;</b> <filepath>// Anytime the control wakes, call its fadeIn() function.</filepath><br>
 <br>
 Once a control is faded in, you might want to fade it back out at some point. To do this, you would leave the fields alone since they are for initialization and waking of the control. Instead you could call the script function:<br>
-<b>MyFadingControl.fadeOut();</b> <i>Call the console command to fade out the control, gradually decreasing its alpha value to 0.<i><br>
+<b>MyFadingControl.fadeOut();</b> <filepath>// Call the console command to fade out the control, gradually decreasing its alpha value to 0.</filepath><br>
 <br>
 <h3>guiFadingButtonCtrl</h3>
 If you want a button that doesn't use any image but still want the button to support fading, use this class. This class adds one extra field: <b>fill</b>. This field will enable/disable the filling of the profile's background color. This is useful if you wanted to make a button that is only text with a transparent background. For a text-only button like this to fade in automatically, the fields would look like this on the control:<br>

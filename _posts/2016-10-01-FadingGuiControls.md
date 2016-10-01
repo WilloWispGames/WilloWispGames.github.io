@@ -59,11 +59,11 @@ The Fading Gui Controls on GitHub:<br>
 <br>
 <br>
 <h2>Usage</h2>
-To use this resource from script you just need to understand how the added fields work. The <b>fadeinTime</b> and <b>fadeoutTime</b> are pretty self-explanatory - just tinker with these to get the transition time right(ms).<br>
+To use this resource from script you just need to understand how the added fields work. The <b>fadeinTime</b> and <b>fadeoutTime</b> are pretty self-explanatory - just tinker with these to get the transition time right ( ms ).<br>
 <br>
-The <b>alpha</b> field can be set to a value from 0 to 255( 0 = transparent ).<br>
+The <b>alpha</b> field can be set to a value from 0 to 255 ( 0 = transparent ).<br>
 <br>
-The <b>mode</b> field can be set to a value from 0 to 2( 0 = idle, 1 = fadingIn, 2 = fadingOut ). This is manipulated internally and isn't exposed to script.<br>
+The <b>mode</b> field can be set to a value from 0 to 2 ( 0 = idle, 1 = fadingIn, 2 = fadingOut ). This is manipulated internally and isn't exposed to script.<br>
 <br>
 The <b>fadeInOnWake</b> field is a bool value of whether or not the control should fade in when the control's <b>onWake()</b> is called.<br>
 <br>

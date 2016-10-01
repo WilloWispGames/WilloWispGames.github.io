@@ -82,7 +82,7 @@ Once a control is faded in, you might want to fade it back out at some point. To
 If you want a button that doesn't use any image but still want the button to support fading, use this class. This class adds one extra field: <b>fill</b>. This field will enable/disable the filling of the profile's background color. This is useful if you wanted to make a button that is only text with a transparent background. For a text-only button like this to fade in automatically, the fields would look like this on the control:<br>
 <br>
 <b>fill = 0;</b> <filepath>// Don't fill the background color.</filepath><br>
-<b>alpha = 0;</b> <filepath>// Transparent to start.<filepath><br>
-<b>fadeInOnWake = 1;</b> <filepath>// Anytime the control wakes, call fadeIn().<filepath><br> 
+<b>alpha = 0;</b> <filepath>// Transparent to start.</filepath><br>
+<b>fadeInOnWake = 1;</b> <filepath>// Anytime the control wakes, call fadeIn().</filepath><br> 
 <br>
 <br>

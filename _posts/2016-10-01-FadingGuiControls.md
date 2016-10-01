@@ -11,7 +11,7 @@ tags: [ 'tech' ]
 Subtle fading effects go a long way in improving the aesthetics of a gui and we wanted to take advantage of this effect in Torque for image and button guis. As of this writing, about the only way to manipulate fading using stock Torque is to set up schedules in script to adjust alpha values. It works but is prone to performance issues, especially with multiple schedules being called simultaneously - in addition to any other game code or scripts that may be running. 
 <br>
 <br>
-To alleviate this, it was decided that some research into implementing a c++ solution was in order. I found this resource from 2005 by Jeff "Ddraig Goch" Parry:<br> 
+To alleviate this, it was decided that some research into implementing a <b>C++</b> solution was in order. I found this resource from 2005 by Jeff "Ddraig Goch" Parry:<br> 
 [Fading Transparent Bitmap Control](https://www.garagegames.com/community/resources/view/7220)<br>
 Although this resource works, we needed support for some other types of gui controls to fade in/out as well. Also any visible child controls would not fade in/out with the parent control. This would lead to things like a background image disappearing but the text inside still being there.<br>
 <br>

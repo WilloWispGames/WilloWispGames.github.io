@@ -25,10 +25,15 @@ I originally updated this resource to work with Torque around the version 3.5-is
 <br>
 <h2>Improvements</h2>
 • <b>Standalone :</b> One main advantage of the update is it leaves the existing GuiBitmapCtrl class untouched. This enabled us to just add a new <filepath>'\fading'</filepath> directory, drop in the new <filepath>'guiFadingControls.h'</filepath> file, and build new fading gui controls that would all call to #include the new header file.<br>
+<br>
 • <b>Includes Children :</b> The rendering code for each control has been extended to support the fading out of child gui controls.<br>
+<br>
 • <b>States :</b> We added 3 states for each new control: <filepath>idle</filepath>, <filepath>fadingIn</filepath>, and <filepath>fadingOut</filepath>. These are used internally and aren't really directly called by script. They are, however, indirectly called by the new script functions if the right conditions are met. All of this ends up making the fading of the controls easier to initialize and use from script than before. Prior to this extension, I would find myself having to supplement a lot of my scripts with additional calls to setVisible(), etc. in order to get the desired results.<br>
-• <b>New Classes: </b> Currently we have added 3 classes that support fading using custom rendering code. Each class required minor adjustments to the rendering code and, while the option of expanding the core 'guiControl' class was explored, ultimately we found it simpler to just write each custom rendering function per class. Altering the core guiControl class was just too messy, creating additional fields for all gui controls edited/saved in the Gui Editor.<br> 
+<br>
+• <b>New Classes: </b> Currently we have added 3 classes that support fading using custom rendering code. Each class required minor adjustments to the rendering code and, while the option of expanding the core 'guiControl' class was explored, ultimately we found it simpler to just write each custom rendering function per class. Altering the core guiControl class was just too messy, creating additional fields for all gui controls edited or saved in the Gui Editor.<br> 
+<br>
 • <b>Additional Fields :</b> 4 fields were added to each fading gui control to facilitate the fading operation: <b>fadeinTime</b>, <b>fadeOutTime</b>, <b>mode</b>, and <b>fadeIn_onWake</b>. The GuiFadingButtonCtrl was created specifically for buttons that won't render any bitmaps but still require a fade effect. The GuiFadingButtonCtrl has one additional field: <b>fill</b>. This optional variable enables or disables the filling of the background and border.<br>
+<br>
 • <b>Console Methods :</b> Each class supports fading in/out of the control on the canvas via 2 added console methods: <b>fadeIn()</b> and <b>fadeOut()</b>.<br>
 <br>
 <br>

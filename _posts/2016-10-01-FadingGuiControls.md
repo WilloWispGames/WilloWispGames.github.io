@@ -61,9 +61,11 @@ The Fading Gui Controls on GitHub:<br>
 <h2>Usage</h2>
 To use this resource from script you just need to understand how the added fields work. The <b>fadeinTime</b> and <b>fadeoutTime</b> are pretty self-explanatory - just tinker with these to get the transition time right(ms).<br>
 <br>
-The <b>alpha</b> field can be set to a value from 0 to 255. 0 = transparent.<br>
-The <b>mode</b> field can be set to a value from 0 to 2. 0 = idle, 1 = fadingIn, 2 = fadingOut. This is manipulated internally and isn't exposed to script.<br>
-The <b>fadeInOnWake</b> field is a bool value of whether or not the control should fade in when the control's <b>onWake()</b> is called.
+The <b>alpha</b> field can be set to a value from 0 to 255( 0 = transparent ).<br>
+<br>
+The <b>mode</b> field can be set to a value from 0 to 2( 0 = idle, 1 = fadingIn, 2 = fadingOut ). This is manipulated internally and isn't exposed to script.<br>
+<br>
+The <b>fadeInOnWake</b> field is a bool value of whether or not the control should fade in when the control's <b>onWake()</b> is called.<br>
 <br>
 When used together, these fields can cater to quite a few different scenarios. By default, the controls behave like the gui control from which they are inherited. i.e. The guiFadingBitmapCtrl acts just like the guiBitmapCtrl unless it is told to do otherwise. The most common use of the fading controls is to have the control fade in automatically, as soon as it is added to the canvas. For this behavior the fields could be set as follows:<br>
 <b>alpha = 0;</b> <i>// Transparent to start.</i><br>

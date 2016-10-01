@@ -32,7 +32,7 @@ I originally updated this resource to work with Torque around the version 3.5-is
 <br>
 • <b>New Classes: </b> Currently we have added 3 classes that support fading using custom rendering code. Each class required minor adjustments to the rendering code and, while the option of expanding the core 'guiControl' class was explored, ultimately we found it simpler to just write each custom rendering function per class. Altering the core guiControl class was just too messy, creating additional fields for all gui controls edited or saved in the Gui Editor.<br> 
 <br>
-• <b>Additional Fields :</b> 5 fields were added to each fading gui control to facilitate the fading operation: <b>fadeinTime</b>, <b>fadeOutTime</b>, <b>alpha</b>, <b>mode</b>, and <b>fadeIn_onWake</b>. The GuiFadingButtonCtrl was created specifically for buttons that won't render any bitmaps but still require a fade effect. The GuiFadingButtonCtrl has one additional field: <b>fill</b>. This optional variable enables or disables the filling of the background and border.<br>
+• <b>Additional Fields :</b> 5 fields were added to each fading gui control to facilitate the fading operation: <b>fadeinTime</b>, <b>fadeOutTime</b>, <b>alpha</b>, <b>mode</b>, and <b>fadeInOnWake</b>. The GuiFadingButtonCtrl was created specifically for buttons that won't render any bitmaps but still require a fade effect. The GuiFadingButtonCtrl has one additional field: <b>fill</b>. This optional variable enables or disables the filling of the background and border.<br>
 <br>
 • <b>Console Methods :</b> Each class supports fading in/out of the control on the canvas via 2 added console methods: <b>fadeIn()</b> and <b>fadeOut()</b>.<br>
 <br>

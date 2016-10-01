@@ -17,7 +17,7 @@ To alleviate this, it was decided that some research into implementing a <b>C++<
 <br>
 Although this resource works, we needed support for some other types of gui controls to fade in/out as well. Also any visible child controls would not fade in/out with the parent control. This would lead to things like a background image disappearing but the text inside still being there.<br>
 <br>
-The timing/core fading implementation was good, so we kept that aspect of the resource intact. The <b>wakeTime</b>,<b>fadeinTime</b>, and <b>fadeoutTime</b> fields and usage were left as they were. Just about everything else was replaced. Functions were implemented that internally update the states of the controls and support for child controls was added. 
+The timing and core fading implementation was good, so we kept that aspect of the resource intact. The <b>wakeTime</b>,<b>fadeinTime</b>, and <b>fadeoutTime</b> fields and usage were left as they were. Just about everything else was replaced. Functions were implemented that internally update the states of the controls and support for child controls was added. 
 <br>
 <br>
 I originally updated this resource to work with Torque around the version 3.5-ish era. As the needs of our prototypes grew, I ended up expanding the resource to create a new 'fading' subset of gui controls. This gave birth to the <filepath>'guiFadingControls.h'</filepath> file. This file is just a shared header file that sets up the includes and initializes a shared enumerator. This enum is used to facilitate 'states' for the new fading gui controls. These states are handled internally and aren't directly manipulated from script.
